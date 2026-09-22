@@ -1,0 +1,402 @@
+[
+  {
+    "skill_name": "ab-testing",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/ab-testing/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:13Z"
+  },
+  {
+    "skill_name": "ad-creative",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/ad-creative/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:13Z"
+  },
+  {
+    "skill_name": "ads",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/ads/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:13Z"
+  },
+  {
+    "skill_name": "ai-seo",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/ai-seo/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:40:08Z"
+  },
+  {
+    "skill_name": "analytics",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/analytics/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:14Z"
+  },
+  {
+    "skill_name": "aso",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/aso/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:14Z"
+  },
+  {
+    "skill_name": "attribution",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/attribution/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:14Z"
+  },
+  {
+    "skill_name": "churn-prevention",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/churn-prevention/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:14Z"
+  },
+  {
+    "skill_name": "co-marketing",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/co-marketing/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:14Z"
+  },
+  {
+    "skill_name": "cold-email",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/cold-email/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:15Z"
+  },
+  {
+    "skill_name": "community-marketing",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/community-marketing/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:15Z"
+  },
+  {
+    "skill_name": "competitor-profiling",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/competitor-profiling/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:15Z"
+  },
+  {
+    "skill_name": "competitors",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/competitors/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:15Z"
+  },
+  {
+    "skill_name": "content-strategy",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/content-strategy/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:16Z"
+  },
+  {
+    "skill_name": "copy-editing",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/copy-editing/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:16Z"
+  },
+  {
+    "skill_name": "copywriting",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/copywriting/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:16Z"
+  },
+  {
+    "skill_name": "cro",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/cro/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:16Z"
+  },
+  {
+    "skill_name": "customer-research",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/customer-research/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:16Z"
+  },
+  {
+    "skill_name": "directory-submissions",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/directory-submissions/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:17Z"
+  },
+  {
+    "skill_name": "emails",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/emails/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:17Z"
+  },
+  {
+    "skill_name": "events",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/events/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:17Z"
+  },
+  {
+    "skill_name": "free-tools",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/free-tools/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:17Z"
+  },
+  {
+    "skill_name": "image",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/image/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:18Z"
+  },
+  {
+    "skill_name": "influencer-marketing",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/influencer-marketing/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:18Z"
+  },
+  {
+    "skill_name": "launch",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/launch/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:18Z"
+  },
+  {
+    "skill_name": "lead-magnets",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/lead-magnets/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:18Z"
+  },
+  {
+    "skill_name": "marketing-council",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/marketing-council/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:19Z"
+  },
+  {
+    "skill_name": "marketing-ideas",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/marketing-ideas/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:19Z"
+  },
+  {
+    "skill_name": "marketing-loops",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/marketing-loops/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:19Z"
+  },
+  {
+    "skill_name": "marketing-plan",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/marketing-plan/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:19Z"
+  },
+  {
+    "skill_name": "marketing-psychology",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/marketing-psychology/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:20Z"
+  },
+  {
+    "skill_name": "marketing-seo-audit",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/seo-audit/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:40:08Z"
+  },
+  {
+    "skill_name": "offers",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/offers/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:20Z"
+  },
+  {
+    "skill_name": "onboarding",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/onboarding/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:20Z"
+  },
+  {
+    "skill_name": "paywalls",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/paywalls/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:20Z"
+  },
+  {
+    "skill_name": "popups",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/popups/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:21Z"
+  },
+  {
+    "skill_name": "pricing",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/pricing/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:21Z"
+  },
+  {
+    "skill_name": "product-marketing",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/product-marketing/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:21Z"
+  },
+  {
+    "skill_name": "programmatic-seo",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/programmatic-seo/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:21Z"
+  },
+  {
+    "skill_name": "prospecting",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/prospecting/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:22Z"
+  },
+  {
+    "skill_name": "public-relations",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/public-relations/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:22Z"
+  },
+  {
+    "skill_name": "referrals",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/referrals/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:22Z"
+  },
+  {
+    "skill_name": "revops",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/revops/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:22Z"
+  },
+  {
+    "skill_name": "sales-enablement",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/sales-enablement/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:23Z"
+  },
+  {
+    "skill_name": "schema",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/schema/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:23Z"
+  },
+  {
+    "skill_name": "signup",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/signup/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:23Z"
+  },
+  {
+    "skill_name": "site-architecture",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/site-architecture/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:23Z"
+  },
+  {
+    "skill_name": "sms",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/sms/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:24Z"
+  },
+  {
+    "skill_name": "social",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/social/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:24Z"
+  },
+  {
+    "skill_name": "video",
+    "source_repo": "coreyhaines31/marketingskills",
+    "source_path": "skills/video/SKILL.md",
+    "branch": "main",
+    "commit_sha": "5b2c0007766c6a1cf1d53fd8fc73e979e0821022",
+    "imported_at": "2026-09-22T10:39:24Z"
+  }
+]
