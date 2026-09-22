@@ -1,0 +1,566 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-22T07:03:59Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 6110735729,
+  "lat": 26.8822760,
+  "lon": 80.9565481,
+  "tags": {
+    "addr:city": "Lucknow",
+    "addr:housenumber": "12",
+    "addr:postcode": "226006",
+    "addr:street": "Mahanagar Extension",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Agarwals Dental Clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 6859938054,
+  "lat": 25.6172639,
+  "lon": 85.1257502,
+  "tags": {
+    "addr:city": "patna",
+    "addr:housenumber": "house no 7",
+    "addr:postcode": "800001",
+    "addr:street": "Sri krishna nagar Road No 4",
+    "amenity": "dentist",
+    "email": "parijatpallav@gmail.com",
+    "healthcare": "dentist",
+    "healthcare:speciality": "orthodontics;dentist",
+    "name": "Balaji Dental and Orthodontic Clinic",
+    "opening_hours": "Mo-Fr 09:00-21:30",
+    "operator": "Parijat apallav",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+917762019092",
+    "website": "http://balajidentalbraces.com",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917634,
+  "lat": 25.6106219,
+  "lon": 85.1181898,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "1st Floor, Gorakh Nath Complex, Opp.Bikaner Sweets, E Boring Canal Road, Patna",
+    "addr:postcode": "800001",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Excel Dental & Health Care Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917636,
+  "lat": 25.5797996,
+  "lon": 85.1272767,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Gaya Road, Dasratha, Sipara, Patna",
+    "addr:postcode": "800002",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Family Orodental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917653,
+  "lat": 25.6329956,
+  "lon": 85.0586281,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Road No.3, Gandhi Lane, Bank Colony, Panchsheel Nagar, Chanakya Puri, Danapur",
+    "addr:postcode": "801503",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Matrichhaya Eye and Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917677,
+  "lat": 25.6073690,
+  "lon": 85.1340100,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Bhumi Vikash Bank, Budh Marg, Near Canara Bank, Patna",
+    "addr:postcode": "800001",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Dr. D.K. Singh Multi Speciality Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917680,
+  "lat": 25.6188484,
+  "lon": 85.0513604,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Ranjan Path, S.K.Puram, Danapur Nizamat",
+    "addr:postcode": "801503",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Maurya Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917682,
+  "lat": 25.6109468,
+  "lon": 85.0563544,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Ramjaipal Road, Near PNB Bank, Rupaspur, Ramjaipal Nagar, Danapur Nizamat, Patna",
+    "addr:postcode": "801503",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Anjaneya Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917688,
+  "lat": 25.6140982,
+  "lon": 85.0563838,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Gola Road, Shri Krishna Puram, Danapur Nizamat, Patna",
+    "addr:postcode": "801503",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "One Dental Clinic and Implant",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917697,
+  "lat": 25.6109973,
+  "lon": 85.1130030,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Pump House, Near Durga Mandir, Punaichak, Mohanpur, Patna",
+    "addr:postcode": "800001",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Maa Durga Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917705,
+  "lat": 25.6123081,
+  "lon": 85.1164698,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "D, 36, Sri Krishnapuri, Near Allahabad Bank, Boaring Road Branch, Patna",
+    "addr:postcode": "800001",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Dr. Smile Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917710,
+  "lat": 25.6098227,
+  "lon": 85.1130661,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Kishori Bhawan, Gulab Rai Gali, Mohanpur, Punaichak",
+    "addr:postcode": "800001",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Ample Smile Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917718,
+  "lat": 25.6156234,
+  "lon": 85.0557932,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Gyanuday Gurukul School, State Bank Of India, Gola Road Branch, Patna",
+    "addr:postcode": "801503",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Shandilya Dental and Facial Trauma Centre",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917719,
+  "lat": 25.5990184,
+  "lon": 85.1268867,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Koushalya Apartment, Beside Over Bridge, Khagoul Road, Mithapur, Patna",
+    "addr:postcode": "800001",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Krishna Dental Hospital and Research Centre",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917724,
+  "lat": 25.6292082,
+  "lon": 85.0581608,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Jhakhari Mahadev, Danapur Nizamat",
+    "addr:postcode": "801503",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Andent Dental Care",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917726,
+  "lat": 25.5820773,
+  "lon": 85.1281493,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Shop No. 2, Gaya Gumati Line Road, Dasratha, Sipara, Patna",
+    "addr:postcode": "800001",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Patel Oral & Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917729,
+  "lat": 25.6036429,
+  "lon": 85.1350826,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "New Market Station Road, New Market, Fraser Road Area, Patna",
+    "addr:postcode": "800001",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "RN Upadhyay Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917735,
+  "lat": 25.6200020,
+  "lon": 85.0551822,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Ram Babu Market, Beside Goal Coaching, Near St Karen's School, Gola Road, Patna",
+    "addr:postcode": "801503",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Perfect Smile Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917737,
+  "lat": 25.5803865,
+  "lon": 85.1262969,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "R.K Bhawan, Ioc Main Road, Hind Nagar, Dasratha, Sipara, Patna",
+    "addr:postcode": "800020",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Dr. Shahid Izhar Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917738,
+  "lat": 25.6194401,
+  "lon": 85.0556042,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Opposite Shiv Mandir, Gola Road, Bailey Road, Danapur",
+    "addr:postcode": "801503",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Dr.Shubhra's Dental Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917741,
+  "lat": 25.5747817,
+  "lon": 85.1270696,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Ramjanki Mandir, New Etwarpur, Sipara, Patna",
+    "addr:postcode": "804453",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Arya Dental Care",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 7525917744,
+  "lat": 25.5992736,
+  "lon": 85.1274831,
+  "tags": {
+    "addr:district": "Patna",
+    "addr:full": "Khagaul Road, Mithapur",
+    "addr:postcode": "800001",
+    "addr:state": "Bihar",
+    "amenity": "dentist",
+    "name": "Paras Dental & Implant Clinic",
+    "source": "Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 10959899342,
+  "lat": 26.7932737,
+  "lon": 81.0057864,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist"
+  }
+},
+{
+  "type": "node",
+  "id": 11219400837,
+  "lat": 26.8586213,
+  "lon": 80.9931548,
+  "tags": {
+    "addr:housenumber": "2/46-C",
+    "addr:postcode": "226010",
+    "amenity": "dentist",
+    "name:en": "Dr Madhyan Dentist"
+  }
+},
+{
+  "type": "node",
+  "id": 12596019563,
+  "lat": 25.5882489,
+  "lon": 85.1791692,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Ganpati Dental Hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 12596227743,
+  "lat": 25.6399423,
+  "lon": 85.0506028,
+  "tags": {
+    "addr:city": "danapur",
+    "addr:district": "patna",
+    "addr:postcode": "801503",
+    "addr:street": "badi macchua toli",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Sree Govind Dental Clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 13316655059,
+  "lat": 26.8747217,
+  "lon": 80.9574307,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "mobile": "9451567684",
+    "name": "All Dental Remedies - Dr. Anup Kumar Gupta"
+  }
+},
+{
+  "type": "node",
+  "id": 13359215292,
+  "lat": 26.8839946,
+  "lon": 80.9922506,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Dr. Avinash Srivastava"
+  }
+},
+{
+  "type": "node",
+  "id": 13426638415,
+  "lat": 26.8751227,
+  "lon": 80.9540871,
+  "tags": {
+    "amenity": "dentist",
+    "fixme": "Dr Name: Dr. Saurabh Bhalla",
+    "healthcare": "dentist",
+    "name": "Anugrah Dental Clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 13607497613,
+  "lat": 25.6220872,
+  "lon": 85.0907488,
+  "tags": {
+    "amenity": "dentist"
+  }
+},
+{
+  "type": "node",
+  "id": 13607497623,
+  "lat": 25.6219143,
+  "lon": 85.0898644,
+  "tags": {
+    "amenity": "dentist",
+    "name": "Shekar Dental Care"
+  }
+},
+{
+  "type": "node",
+  "id": 13664765954,
+  "lat": 26.8752978,
+  "lon": 80.9549502,
+  "tags": {
+    "addr:block": "B",
+    "addr:block_number": "C",
+    "addr:city": "Lucknow",
+    "addr:housenumber": "141",
+    "addr:street": "Mandir Marg",
+    "amenity": "dentist",
+    "fixme": "Sector: C",
+    "healthcare": "dentist",
+    "level": "0",
+    "mobile": "+91 09450464907",
+    "name": "Dr. Raghav's Tooth Care",
+    "opening_hours": "09:00-13:00;17:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13708128608,
+  "lat": 25.6378005,
+  "lon": 85.1087823,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "name": "Daat Hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 13708426634,
+  "lat": 26.8766875,
+  "lon": 80.9532172,
+  "tags": {
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "level": "1",
+    "mobile": "+91 7991747011",
+    "name": "Mahanagar Dental Clinic"
+  }
+},
+{
+  "type": "node",
+  "id": 13909051174,
+  "lat": 26.8932445,
+  "lon": 80.9959503,
+  "tags": {
+    "addr:city": "Lucknow",
+    "addr:district": "Uttar Pradesh",
+    "addr:housenumber": "86",
+    "addr:postcode": "226016",
+    "addr:street": "Tulsi Vihar Market",
+    "amenity": "dentist",
+    "healthcare": "dentist",
+    "healthcare:speciality": "dental_clinic",
+    "name": "Dynamic Dental Care Clinic & Implant Centre, Lucknow",
+    "operator": "DR. ANANT AGARWAL"
+  }
+},
+{
+  "type": "node",
+  "id": 13968539810,
+  "lat": 25.5753431,
+  "lon": 85.1424188,
+  "tags": {
+    "addr:city": "Patna",
+    "addr:district": "Patna",
+    "addr:postcode": "New Jaganpura",
+    "addr:street": "Rudra Dental Clinic Ram Krishna Nagar Near Indane Gas Godown Nalapar Patna",
+    "amenity": "dentist",
+    "email": "rudradentalclinicpatnabihar@gmail.com",
+    "healthcare": "dentist",
+    "healthcare:speciality": "dental_oral_maxillo_facial_surgery;general;surgery",
+    "mobile": "+918800274630",
+    "name": "Dr. Rajesh Raushan",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "way",
+  "id": 1360699133,
+  "center": {
+    "lat": 26.8892752,
+    "lon": 80.9974921
+  },
+  "tags": {
+    "amenity": "dentist",
+    "building": "yes",
+    "healthcare": "dentist",
+    "name": "Riizwi Dental Clinic"
+  }
+},
+{
+  "type": "way",
+  "id": 1484040778,
+  "center": {
+    "lat": 25.6189673,
+    "lon": 85.0848499
+  },
+  "tags": {
+    "amenity": "dentist",
+    "name": "Maxx Dental Clinic"
+  }
+}
+
+  ]
+}
