@@ -149,6 +149,56 @@ skills:
 
   # --- MVP Daddy: dental clinic lead gen (daily 06:00 IST) ---
   dental-lead-scout: { enabled: true, schedule: "30 0 * * *", var: "" } # daily 00:30 UTC (06:00 IST) - scout Indian dental clinic leads + draft Rs 5,000 website outreach into output/dental-leads/<date>.md. DRAFTS ONLY, never contacts a clinic. var: empty=rotate Tier 2/3 cities | comma-separated cities
+  ab-testing: { enabled: false, schedule: "0 12 * * *" }
+  ad-creative: { enabled: false, schedule: "0 12 * * *" }
+  ads: { enabled: false, schedule: "0 12 * * *" }
+  analytics: { enabled: false, schedule: "0 12 * * *" }
+  aso: { enabled: false, schedule: "0 12 * * *" }
+  attribution: { enabled: false, schedule: "0 12 * * *" }
+  churn-prevention: { enabled: false, schedule: "0 12 * * *" }
+  co-marketing: { enabled: false, schedule: "0 12 * * *" }
+  cold-email: { enabled: false, schedule: "0 12 * * *" }
+  community-marketing: { enabled: false, schedule: "0 12 * * *" }
+  competitor-profiling: { enabled: false, schedule: "0 12 * * *" }
+  competitors: { enabled: false, schedule: "0 12 * * *" }
+  content-strategy: { enabled: false, schedule: "0 12 * * *" }
+  copy-editing: { enabled: false, schedule: "0 12 * * *" }
+  copywriting: { enabled: false, schedule: "0 12 * * *" }
+  cro: { enabled: false, schedule: "0 12 * * *" }
+  customer-research: { enabled: false, schedule: "0 12 * * *" }
+  directory-submissions: { enabled: false, schedule: "0 12 * * *" }
+  emails: { enabled: false, schedule: "0 12 * * *" }
+  events: { enabled: false, schedule: "0 12 * * *" }
+  free-tools: { enabled: false, schedule: "0 12 * * *" }
+  image: { enabled: false, schedule: "0 12 * * *" }
+  influencer-marketing: { enabled: false, schedule: "0 12 * * *" }
+  launch: { enabled: false, schedule: "0 12 * * *" }
+  lead-magnets: { enabled: false, schedule: "0 12 * * *" }
+  marketing-council: { enabled: false, schedule: "0 12 * * *" }
+  marketing-ideas: { enabled: false, schedule: "0 12 * * *" }
+  marketing-loops: { enabled: false, schedule: "0 12 * * *" }
+  marketing-plan: { enabled: false, schedule: "0 12 * * *" }
+  marketing-psychology: { enabled: false, schedule: "0 12 * * *" }
+  offers: { enabled: false, schedule: "0 12 * * *" }
+  onboarding: { enabled: false, schedule: "0 12 * * *" }
+  paywalls: { enabled: false, schedule: "0 12 * * *" }
+  popups: { enabled: false, schedule: "0 12 * * *" }
+  pricing: { enabled: false, schedule: "0 12 * * *" }
+  product-marketing: { enabled: false, schedule: "0 12 * * *" }
+  programmatic-seo: { enabled: false, schedule: "0 12 * * *" }
+  prospecting: { enabled: false, schedule: "0 12 * * *" }
+  public-relations: { enabled: false, schedule: "0 12 * * *" }
+  referrals: { enabled: false, schedule: "0 12 * * *" }
+  revops: { enabled: false, schedule: "0 12 * * *" }
+  sales-enablement: { enabled: false, schedule: "0 12 * * *" }
+  schema: { enabled: false, schedule: "0 12 * * *" }
+  signup: { enabled: false, schedule: "0 12 * * *" }
+  site-architecture: { enabled: false, schedule: "0 12 * * *" }
+  sms: { enabled: false, schedule: "0 12 * * *" }
+  social: { enabled: false, schedule: "0 12 * * *" }
+  video: { enabled: false, schedule: "0 12 * * *" }
+  ai-seo: { enabled: false, schedule: "workflow_dispatch" } # imported marketing skill, manual only
+  marketing-seo-audit: { enabled: false, schedule: "workflow_dispatch" } # imported marketing skill, manual only
   # --- Fallback (must be last) ---
   heartbeat: { enabled: true, schedule: "0 8 * * *", var: "" } # ambient fleet-health check (default) — surfaces anything worth attention. var: empty=ambient check | <area>=ambient focused on that area | brief[:<area>]=priority brief (3 things to focus on, why now, what moved; folds in priority-brief)
 
