@@ -1,28 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T14:52:45.027344Z",
-  "generator": "eyebrow/0.4.1",
+  "generatedAt": "2026-09-22T07:09:40.043842963Z",
+  "generator": "eyebrow/0.4.2",
   "artifacts": [
-    {
-      "id": "564d8f38dcfa4c55",
-      "tool": "aeon",
-      "scope": "project:.",
-      "type": "skill",
-      "name": "arc-studio",
-      "source": {
-        "kind": "local",
-        "ref": "skills/arc-studio"
-      },
-      "capabilities": {},
-      "files": [
-        {
-          "path": "SKILL.md",
-          "hash": "e6cafd6d3caa262668d29bab727a4cc3f988a62cb8b0e37b1d63327213289df1"
-        }
-      ],
-      "contentHash": "sha256-c29c74d8c0499f7798d0c664a67853fee619ddb8cf05311713eba059a2fd98d3",
-      "discoveredFrom": "skills/arc-studio/SKILL.md"
-    },
     {
       "id": "019b953b97c439b3",
       "tool": "aeon",
@@ -822,6 +802,26 @@
       "discoveredFrom": "skills/inbox-triage/SKILL.md"
     },
     {
+      "id": "564d8f38dcfa4c55",
+      "tool": "aeon",
+      "scope": "project:.",
+      "type": "skill",
+      "name": "arc-studio",
+      "source": {
+        "kind": "local",
+        "ref": "skills/arc-studio"
+      },
+      "capabilities": {},
+      "files": [
+        {
+          "path": "SKILL.md",
+          "hash": "e6cafd6d3caa262668d29bab727a4cc3f988a62cb8b0e37b1d63327213289df1"
+        }
+      ],
+      "contentHash": "sha256-c29c74d8c0499f7798d0c664a67853fee619ddb8cf05311713eba059a2fd98d3",
+      "discoveredFrom": "skills/arc-studio/SKILL.md"
+    },
+    {
       "id": "568fc161dc3c135a",
       "tool": "aeon",
       "scope": "project:.",
@@ -1063,6 +1063,26 @@
       "discoveredFrom": "skills/create-skill/SKILL.md"
     },
     {
+      "id": "6d7ecf16013e555c",
+      "tool": "aeon",
+      "scope": "project:.",
+      "type": "skill",
+      "name": "dental-lead-scout",
+      "source": {
+        "kind": "local",
+        "ref": "skills/dental-lead-scout"
+      },
+      "capabilities": {},
+      "files": [
+        {
+          "path": "SKILL.md",
+          "hash": "ec2edb7c0dfcf1e6f6534849f2d1f7d760d4aa0311c2556f48d19e397aff8df2"
+        }
+      ],
+      "contentHash": "sha256-5c418ebbd0f95b61ebb82f727dc2beebc7e8d67f2065bfc6ef0922b97b2a6290",
+      "discoveredFrom": "skills/dental-lead-scout/SKILL.md"
+    },
+    {
       "id": "6daeb645ed4f2421",
       "tool": "aeon",
       "scope": "project:.",
@@ -1196,10 +1216,10 @@
       "files": [
         {
           "path": "SKILL.md",
-          "hash": "c02bffb0e44c325923ac4780c5c9ade453155876654cd8b82dd32ff7251a42bd"
+          "hash": "236bbbc8088cd488212ee2dc1054f78dc2b7bf072c0c5c2065053524307af967"
         }
       ],
-      "contentHash": "sha256-009610fc6341099ee74294863ccfa9bc5ffa5290e52934444f498ad4c7b9b0b4",
+      "contentHash": "sha256-7219944b5fae9037687f6a6da069d111c9c8c5064b76ea3fc9b81d65bc3e2d3d",
       "discoveredFrom": "skills/idea-pipeline/SKILL.md"
     },
     {
