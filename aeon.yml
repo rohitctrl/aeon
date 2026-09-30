@@ -39,7 +39,7 @@ skills:
 
   # --- Afternoon (2 PM UTC) ---
   article: { enabled: false, schedule: "0 14 * * *", var: "" } # long-form article. var: empty=standard | repo:<owner/repo> | lens:<topic>; append --visual for a Replicate hero image (angles fold in repo-article/project-lens/technical-explainer)
-  digest: { enabled: false, schedule: "0 14 * * *", var: "" } # topic digest across web + X + RSS. var: empty=web | <topic> | rss[:<topic>] | "<topic> +rss" (RSS feeds from memory/feeds.yml)
+  digest: { enabled: true, schedule: "0 14 * * *", var: "" } # topic digest across web + X + RSS. var: empty=web | <topic> | rss[:<topic>] | "<topic> +rss" (RSS feeds from memory/feeds.yml)
   you-web-search: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — high-quality web search via You.com API. var: search query/topic; runs keyless with no setup (100/day per IP), YDC_API_KEY unlocks keyed limits + livecrawl via YOUCOM_LIVECRAWL
   last30: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — cross-platform 30-day social research
   search-skill: { enabled: false, schedule: "0 14 * * *" }
@@ -258,8 +258,7 @@ chains:
     max_dispatches: 5
     steps:
       - { skill: feature, var: "$chain_target" }
-      - { skill: pr-review, var: "$feature_pr", consume: [feature] }
-
+      - { skill: pr-review, var: "$feature_pr", consume: [ feature ] }
   # routine:
   #   schedule: "0 7 * * *"
   #   on_error: fail-fast
@@ -267,16 +266,16 @@ chains:
   #     - parallel: [token-movers, hn-digest, issue-triage, github-trending]
   #     - skill: routine, consume: [token-movers, hn-digest, issue-triage, github-trending]
 
-# Default model for all skills. Override per-run via workflow_dispatch.
-# Options: claude-sonnet-5, claude-opus-4-8, claude-haiku-4-5-20251001
-# (Grok harness model: grok-4.5, the flagship reasoning model and grok's current
-#  default, run with --no-subagents in CI. It's the only id the grok CLI accepts on an
-#  X-account login, and it's the gateway default too. The older coding ids
-#  (grok-build-0.1, grok-composer-2.5-fast, grok-4.3) are gateway-only, reachable via
-#  XAI_API_KEY + the GROK_MODEL var.)
-# The non-claude harnesses use their OWN model ids (codex openai/*, kimi moonshotai/*,
-# vibe mistralai/*, pi deepseek/*) — surfaced in the dashboard picker per harness; see
-# docs/harnesses.md. The value below only applies to the claude/grok harnesses.
+  # Default model for all skills. Override per-run via workflow_dispatch.
+  # Options: claude-sonnet-5, claude-opus-4-8, claude-haiku-4-5-20251001
+  # (Grok harness model: grok-4.5, the flagship reasoning model and grok's current
+  #  default, run with --no-subagents in CI. It's the only id the grok CLI accepts on an
+  #  X-account login, and it's the gateway default too. The older coding ids
+  #  (grok-build-0.1, grok-composer-2.5-fast, grok-4.3) are gateway-only, reachable via
+  #  XAI_API_KEY + the GROK_MODEL var.)
+  # The non-claude harnesses use their OWN model ids (codex openai/*, kimi moonshotai/*,
+  # vibe mistralai/*, pi deepseek/*) — surfaced in the dashboard picker per harness; see
+  # docs/harnesses.md. The value below only applies to the claude/grok harnesses.
 model: deepseek-flash
 
 # Agent harness — which coding-agent CLI runs your skills.
