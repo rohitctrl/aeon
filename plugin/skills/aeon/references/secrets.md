@@ -43,6 +43,7 @@ The first two are the direct-to-Anthropic options; the rest are gateways. Settin
 | `USEPOD_TOKEN` | usepod.ai — token is embedded in the base URL, treat as secret |
 | `VENICE_API_KEY` | venice.ai/settings/api — routed through a local translator sidecar |
 | `SURPLUS_API_KEY` | surplusintelligence.ai — `inf_…`, settles USDC on Base. Fund the wallet and `approve()` once before first use |
+| `HIVEMINDOS_CREDIT_TOKEN` | HivemindOS Models - a credit token billed to a balance, not a provider account. Routed through a local translator sidecar. Not in the dashboard modal yet; set it with `gh secret set` |
 | `XAI_API_KEY` | console.x.ai — `xai-…`. Triple duty: X/tweet skills, the Grok gateway, and API-key auth for the grok harness |
 | `GROK_CREDENTIALS` | Dashboard → AUTH → **Connect X account**. Base64 of your `~/.grok` session; runs the grok harness on a SuperGrok / X Premium+ entitlement. No CLI path for this one |
 
@@ -90,10 +91,11 @@ Each is opt-in. Unset means the skills that want it skip or degrade.
 | `BASE_RPC_URL` | Base on-chain skills | docs.base.org/chain/node-providers — a public RPC is used by default |
 | `BANKR_API_KEY` | `distribute-tokens` (real on-chain sends) | bankr.bot/api-keys — Wallet API, not the LLM key |
 | `VERCEL_TOKEN` | `deploy-prototype` | vercel.com/account/settings/tokens |
+| `FEEDBACK_TOKEN` | `feedback-builder` (bearer token for a private `/feedback` endpoint) | issued by the service you point it at - leave unset for public endpoints |
 | `REPLICATE_API_TOKEN` | `article --visual` hero images | replicate.com/account/api-tokens |
 | `ADMANAGE_API_KEY` | `schedule-ads` | admanage.ai/api-docs |
 | `RESEND_API_KEY` | `send-email`, `vuln-scanner` disclosures | resend.com |
-| `YDC_API_KEY` | `you-web-search` (required for it) | api.you.com — optional `YOUCOM_FRESHNESS` / `YOUCOM_LIVECRAWL` variables tune freshness + full-page crawl |
+| `YDC_API_KEY` | `you-web-search` (optional — runs keyless without it, 100 searches/day per IP; the key unlocks higher limits + livecrawl) | you.com/platform — optional `YOUCOM_FRESHNESS` / `YOUCOM_LIVECRAWL` variables tune freshness + full-page crawl |
 | `TASKMARKET_API_KEY` | `taskmarket-delegate` — only `create`/`submit`; `browse` works without | tasks.taskmarket.dev — optional `TASKMARKET_WORKER_ADDRESS` tags submissions |
 
 ## 5. Observability — optional
@@ -126,3 +128,7 @@ Set with `gh variable set NAME "value"`.
 | `LANGFUSE_LOG_CONTENT` | `0` = metadata only, no prompt bodies |
 | `DISCORD_ALLOWED_AUTHOR_ID` / `SLACK_ALLOWED_USER_ID` | Restrict who can command the agent inbound |
 | `VENICE_BASE_URL` | Point Venice at a compatible endpoint |
+| `HIVEMINDOS_MODEL` | HivemindOS catalog id (default `inclusionai/ling-3.0-flash`); native `claude-*`/`grok-*` ids fall back to the default |
+| `HIVEMINDOS_BASE_URL` | Point HivemindOS at another deployment |
+| `HIVEMINDOS_MAX_TOKENS` | Per-call completion cap on the HivemindOS gateway (default 4096, `0` disables; empty = default) |
+| `HIVEMINDOS_REASONING` | `keep` sends Claude Code's reasoning-off flag as asked, on a model that honours it |

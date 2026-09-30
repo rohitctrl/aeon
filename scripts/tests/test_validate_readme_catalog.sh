@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Unit test for scripts/validate-readme-catalog.mjs — first-party catalog ↔ README
 # table parity. No network, no GitHub auth. Each case runs against throwaway
-# fixtures under /tmp; the last case runs the real committed catalog + README so a
+# fixtures under /tmp; the last case runs the real committed catalog + README + docs so a
 # drifted main is caught here too.
 set -uo pipefail
 cd "$(dirname "$0")/../.." || exit 1
@@ -117,6 +117,29 @@ expect_fail "$d" "all 7 skills by pack" "a stale 'all N skills' caption is rejec
 d=$(new_fixture bad_hero)
 write_readme "$d" Five 3 2 '`a-one`,`a-two`'   # "Five packs" but catalog has 2
 expect_fail "$d" "Five packs ship in the box" "a stale pack-count hero line is rejected"
+
+# ── Whole-catalog skill counts (prose, alt text, anchors, extra docs) ───────
+d=$(new_fixture rounded_count)
+echo 'Aeon ships **60+ skills** across harnesses.' >> "$d/README.md"
+expect_fail "$d" "\"60+ skills\" is a rounded count" "a rounded 'N+ skills' claim is rejected"
+
+d=$(new_fixture stale_count)
+echo '<img alt="AEON - 50 skills across 9 harnesses">' >> "$d/README.md"
+expect_fail "$d" "\"50 skills\" but the catalog has 3 skills" "a stale whole-catalog 'N skills' claim is rejected"
+
+d=$(new_fixture per_pack_count)
+echo 'Alpha holds 2 skills; the catalog has 3 skills in total.' >> "$d/README.md"
+expect_ok "$d" "per-pack counts and the exact total are accepted"
+
+d=$(new_fixture stale_anchor)
+echo '[catalog](docs/skill-packs.md#full-catalog-all-9-skills-by-pack)' >> "$d/README.md"
+expect_fail "$d" "link anchor \"all-9-skills-by-pack\" is stale" "a stale 'all-N-skills-by-pack' anchor is rejected"
+
+d=$(new_fixture extra_doc)
+printf '# Packs\n\nAeon ships **40 skills**.\n' > "$d/doc.md"
+out="$(node "$V" --packs "$d/packs.json" --readme "$d/README.md" --docs "$d/doc.md" 2>&1)"; rc=$?
+if [[ $rc -ne 0 && "$out" == *"doc.md:3"* ]]; then pass "a stale count in a --docs file is rejected with its location"
+else bad "a stale count in a --docs file is rejected with its location"; echo "$out" | sed 's/^/       /'; fi
 
 # ── The committed catalog + README itself ───────────────────────────────────
 out="$(node "$V" 2>&1)"; rc=$?

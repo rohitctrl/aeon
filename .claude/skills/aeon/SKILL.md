@@ -1,6 +1,6 @@
 ---
 name: aeon
-description: Set up and run an Aeon agent instance — get started from scratch, pick which skills to turn on or install more from packs, reschedule or change what runs, edit what an existing skill does, fix a skill that isn't firing, set the STRATEGY.md north star and soul/ voice, turn a Claude Code chat into a scheduled Aeon skill, and mine past Claude Code conversations for recurring work worth automating as a skill. Use when the user mentions Aeon, aeon.yml, an Aeon skill / instance / routine / pack, asks to schedule, enable, edit, or debug an agent that runs on a cron, or asks what of their repeated/manual work Aeon could take over.
+description: Set up and run an Aeon agent instance — get started from scratch, pick which skills to turn on or install more from packs, reschedule or change what runs, edit what an existing skill does, fix a skill that isn't firing, set the STRATEGY.md north star and soul/ voice, turn a coding-agent chat into a scheduled Aeon skill, and mine past coding-agent conversations for recurring work worth automating as a skill. Use when the user mentions Aeon, aeon.yml, an Aeon skill / instance / routine / pack, asks to schedule, enable, edit, or debug an agent that runs on a cron, or asks what of their repeated/manual work Aeon could take over.
 ---
 
 # Aeon
@@ -18,7 +18,7 @@ Pick the mode they're asking for:
 | **5 · Edit a skill** | Change what an existing skill does |
 | **6 · What to turn on** | Pick skills, browse packs, install more |
 | **7 · Strategy & voice** | `STRATEGY.md` and `soul/` — the north star and the tone |
-| **8 · Mine history → skill** | "What of my repeated work could Aeon do for me?" — surface it from past Claude Code chats |
+| **8 · Mine history → skill** | "What of my repeated work could Aeon do for me?" — surface it from past coding-agent chats |
 
 ## Preflight (every mode)
 
@@ -89,7 +89,7 @@ Goal: one real notification in their phone, fast. Do not configure a schedule fi
 
    `--dry-run` prints the resolved `method=… → secret …` without calling `gh` or `claude` — worth running whenever the provider is in doubt.
 
-   **Don't assume they have a Claude subscription:** nine providers work, including OpenRouter, Grok, GLM, and crypto-settled gateways. See "Providers and harnesses".
+   **Don't assume they have a Claude subscription:** ten providers work, including OpenRouter, Grok, GLM, and crypto-settled gateways. See "Providers and harnesses".
 3. **Wire one channel.** Telegram is the fastest: create a bot with @BotFather, then `./aeon secrets set TELEGRAM_BOT_TOKEN --stdin` and `TELEGRAM_CHAT_ID`. Skip Discord/Slack/email for now — one channel is enough to prove it works.
 4. **Run one skill now.** Pick it with Mode 6 — ask what they want handled, propose one — then `./aeon skills run <name>`. Wait for it, then `./aeon runs logs <id>`. They should get a Telegram message.
 5. **Only then, schedule it.** `./aeon skills enable <name>` and set a time (see Mode 2).
@@ -189,7 +189,7 @@ Note: GitHub only delivers ~10% of `*/5` cron ticks, so the scheduler catches up
 
 ## Mode 4 — Turn this chat into a skill
 
-They just did something in Claude Code and want it to happen on a schedule.
+They just did something in this chat and want it to happen on a schedule.
 
 1. **Write the skill file.** `skills/<name>/SKILL.md` — frontmatter, then the prompt. Derive it from what actually happened in the session:
    - the prompt body = what they asked for, plus the steps that worked
@@ -251,7 +251,7 @@ metadata:
 Today is ${today}. <the prompt — plain instructions, including judgment calls>
 
 ## Steps
-1. <the procedure - 44 of 82 skills lead with this>
+1. <the procedure - 52 of 85 skills carry this section>
 
 ## Network note
 <curl / WebFetch / `./secretcurl` / `gh api` — how this skill fetches>
@@ -311,9 +311,9 @@ Three at a time, not twelve. Every enabled skill is a recurring notification, an
 ./aeon packs ls                  # the six first-party packs
 ```
 
-`ls` footers with `82 skills · 1 enabled` — read it to them before proposing anything. First run installs the CLI runtime (tsx + yaml, ~12MB); the npm noise is one-time and expected. Grep-only equivalents: `references/layout.md`.
+`ls` footers with `85 skills · 1 enabled` — read it to them before proposing anything. First run installs the CLI runtime (tsx + yaml, ~12MB); the npm noise is one-time and expected. Grep-only equivalents: `references/layout.md`.
 
-Packs are a visibility filter, not a runtime switch — revealing one runs nothing. Core (12), Evolution (9) and Basics (18) show by default; Dev (13), Crypto (19) and Productivity (11) are on demand.
+Packs are a visibility filter, not a runtime switch — revealing one runs nothing. Core (12), Evolution (9) and Basics (18) show by default; Dev (16), Crypto (19) and Productivity (11) are on demand.
 
 Reasonable starting sets:
 
@@ -373,7 +373,7 @@ By default Aeon has no personality. `soul/SOUL.md` (identity, worldview, opinion
 
 ## Mode 8 — Mine history for skills to automate
 
-"What am I doing by hand over and over that Aeon could just do?" Mode 4 turns *this* chat into a skill; Mode 8 mines *past* chats to find which chat is worth turning into one. It reads the operator's local Claude Code transcripts (`~/.claude/projects/*/*.jsonl`), so it only works on their own machine — never inside an Aeon run.
+"What am I doing by hand over and over that Aeon could just do?" Mode 4 turns *this* chat into a skill; Mode 8 mines *past* chats to find which chat is worth turning into one. It reads the operator's local coding-agent transcripts (`~/.claude/projects` or `~/.codex/sessions`), so it only works on their own machine — never inside an Aeon run.
 
 1. **Scan.** Run the miner from the instance repo root:
 
@@ -411,10 +411,10 @@ Two independent axes. Don't confuse them: the **gateway** decides which model an
 Set a secret and it's live. `aeon.yml` ships `gateway: { provider: auto }`, which resolves at run time from whichever keys exist, in this priority order:
 
 ```
-claude → anthropic → openrouter → bankr → usepod → venice → surplus → grok → glm
+claude → anthropic → openrouter → bankr → usepod → venice → surplus → grok → glm → hivemindos
 ```
 
-`direct` is **not** a hop in that chain — it's the placeholder when *none* of the nine secrets is set. It requires nothing and configures nothing, so the run proceeds on whatever `ANTHROPIC_*` env happens to exist and otherwise fails at the first model call. "Resolved to `direct`" in a log means **no key was found**, not that a fallback worked.
+`direct` is **not** a hop in that chain — it's the placeholder when *none* of the ten secrets is set. It requires nothing and configures nothing, so the run proceeds on whatever `ANTHROPIC_*` env happens to exist and otherwise fails at the first model call. "Resolved to `direct`" in a log means **no key was found**, not that a fallback worked.
 
 | Provider | Secret | Notes |
 |---|---|---|
@@ -427,6 +427,7 @@ claude → anthropic → openrouter → bankr → usepod → venice → surplus 
 | Surplus | `SURPLUS_API_KEY` | `inf_…` · settles USDC on Base — fund the wallet + `approve()` once first |
 | Grok (xAI) | `XAI_API_KEY` | `xai-…` · passthrough to `api.x.ai` |
 | GLM (Z.AI) | `GLM_API_KEY` | No prefix — pass `--provider glm`. Alias `ZAI_API_KEY`. Passthrough to `api.z.ai/api/anthropic` |
+| HivemindOS Models | `HIVEMINDOS_CREDIT_TOKEN` | Billed to a credit balance, no provider account needed. Not in `./aeon auth` or the dashboard yet - `gh secret set HIVEMINDOS_CREDIT_TOKEN`. Sidecar; model via `HIVEMINDOS_MODEL` (default `inclusionai/ling-3.0-flash`) |
 
 It runs as a **cascade**, not a single choice: the highest-priority key goes first, and on *any* failure (no credits, rate limit, outage, dud response) the run falls over to the next provider whose key is set. It only errors if every one fails. The log prints `Routing attempt via '<provider>'` per hop.
 
