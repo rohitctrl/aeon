@@ -110,13 +110,14 @@ If zero qualified leads, still write the file with the header, `Leads: 0`, and o
 
 - Append each new lead's `clinic-name|city` key to `memory/topics/dental-lead-scout-seen.json`, keeping the array capped at 500 (drop oldest).
 - Append to `memory/logs/${today}.md` under a `### dental-lead-scout` heading: cities scouted, searches used, lead count by priority, output file path.
+- Notify when there is real signal: if N >= 1 qualified leads were filed, send a short `./notify` message with the lead count by priority, the cities scouted, and the output file path. Zero leads is a quiet day, not a signal: send nothing. Searches failing two runs in a row is broken: notify with the error instead.
 
 ## Constraints
 
 - Never send anything to a clinic. Repo files are the only output.
 - Never modify `rohitctrl/india-dentist-leads` or any repo outside this one.
 - Do not enable, edit, or dispatch other skills.
-- Skip `./notify` entirely on a normal run (the operator reviews the output file himself). Notify only if the skill is broken (for example searches failing two runs in a row).
+- `./notify` fires on signal only: leads filed (N >= 1) or the skill being broken (two consecutive source misses). A zero-lead run and a single source miss both send nothing. Keep the message to count, cities, file path.
 - Do not exceed the search and lead caps even if results are rich.
 - Respect robots and rate limits; one polite fetch per directory page, no scraping loops.
 
