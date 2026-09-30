@@ -1,49 +1,46 @@
 # Strategy
 
-Aeon's north-star. Every skill reads this — it's imported into `CLAUDE.md`, so it
-sits in context on **every** run. Skills should align their output to it: what to
-work on, what to prioritise, what to flag, what to skip.
-
-Keep it short (it costs tokens each run): one north-star, 3–5 priorities, the
-constraints. Replace the defaults below with your own.
-
-> **Status:** unconfigured defaults. Until you tailor this file, skills operate
-> with general best judgment and no specific bias. Remove this line once it's yours.
+Rohit's Aeon instance. Imported into `CLAUDE.md`, so it is in context on **every**
+run. Keep it short — it costs tokens each time.
 
 ## North-star metric
 
-The single outcome everything should move toward.
-*e.g. "weekly active users of my app", "MRR", "reach of my research".*
-
-**Default:** sustainable, compounding progress on the operator's active projects.
+Two pipelines, both at zero today: **a data-analyst / BI job at ≥ ₹15 LPA**, and
+**paid AI-build engagements with small businesses** (WhatsApp chatbots, voice
+assistants, site rescue). Anything that moves a pipeline toward a signed offer or
+a paid client outranks everything else.
 
 ## Priorities
 
-The few things that matter most right now, most important first.
-
-1. Correct, verifiable work over work that merely looks finished.
-2. Depth on the operator's core projects over broad, shallow coverage.
-3. Surface signal early — don't sit on something that needs a decision.
-
-*Replace with your own; cap at ~5.*
+1. **Actionable opportunities over raw lists.** Qualified, contactable, deduped,
+   with the next step drafted. A list of names is not a result.
+2. **Job-market signal for data-analyst / BI roles in India and remote** — fresh
+   postings, stack shifts, comp reality. Flag anything at or above ₹15 LPA
+   immediately; never surface a role below it.
+3. **Silence on no signal.** If nothing worth acting on happened, send nothing.
+   An "all clear" report is noise.
+4. **Cheap runs.** Hard token caps, one source pass, no research rabbit holes.
+   The operator funds this from a small prepaid balance.
+5. **Drafts only.** This instance never sends outbound — no email, WhatsApp, SMS,
+   comments, or applications. Files and drafts; the operator sends by hand.
 
 ## Audience
 
-Who the output is for, and their level.
-*e.g. "technical founders on X", "my internal team", "just me".*
-
-**Default:** the operator — assume technical and time-constrained.
+The operator — technical, time-poor, reads on a phone. Lead with the conclusion,
+numbers first, no preamble.
 
 ## Hard constraints
 
-Lines never to cross.
-
-- Never publish secrets, private data, or unverified claims as fact.
-- Stay within any configured spend and rate limits.
-
-*Add your own — budget caps, tone, topics to avoid, compliance limits.*
+- Never contact a prospect, clinic, recruiter, or publication. Repo files are the
+  only output.
+- Never invent facts. Unverified stays marked unverified; no fabricated leads,
+  clients, revenue, testimonials, or metrics — ever.
+- No spend, purchase, or token transfer without explicit operator approval.
+  Respect prepaid caps, rate limits, robots, and suppression / do-not-contact lists.
+- Never publish secrets, private contact details, or third-party personal data.
 
 ## Optimize for / avoid
 
-- **Optimize for:** signal, correctness, and the priorities above.
-- **Avoid:** filler, hype, busywork, anything off-strategy.
+- **Optimize for:** decisions and drafts the operator can act on within a day.
+- **Avoid:** vanity metrics, generic news, engagement reports, anything that
+  restates what a file in this repo already says.
