@@ -1,8 +1,8 @@
 {
   "skill": "dental-lead-scout",
-  "last_analyzed": "2026-09-22T07:07:16Z",
+  "last_analyzed": "2026-09-30T21:38:24Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured lead report with a transparent, methodologically honest fallback to OpenStreetMap after real 403s, cited sources, ready-to-send drafts, and an explicit caveat that the no-website signal is unverified rather than overstated.",
+  "assessment": "Substantive, well-structured scout output: 2 P1 leads with phone numbers and source URLs, plus honest, actionable meta-findings (AskLaila's Vadodara page serving Bangalore data, OSM lacking phone/website tags) that prevent false leads; modest yield and unverified lead 2 keep it from 5.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -10,6 +10,12 @@
       "date": "2026-09-22",
       "score": 4,
       "ts": "2026-09-22T07:07:16Z",
+      "harness": "claude"
+    },
+    {
+      "date": "2026-09-30",
+      "score": 4,
+      "ts": "2026-09-30T21:38:24Z",
       "harness": "claude"
     }
   ]

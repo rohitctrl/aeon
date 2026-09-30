@@ -52,6 +52,13 @@ tmp_*
 .*-msg.txt
 *_msg.txt
 *_raw.txt
+# Dotfile scratch skills stage during a run. `tmp_*` above only matches the
+# undotted form, so `.tmp-*` scraper output was not covered and leaked into the
+# workflow's `git add -A` auto-commit.
+.tmp-*
+# ...and dotfile scratch left behind inside a skill's own output dir (the
+# 2026-09-22 dental-lead-scout run committed .ddg.html / .osm-raw.json this way).
+output/dental-leads/.*
 
 # Python bytecode
 __pycache__/
