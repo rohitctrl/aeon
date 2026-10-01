@@ -19,5 +19,9 @@
     "success_rate": 1,
     "last_quality_score": 4,
     "last_dispatch": "2026-10-01T00:30:07Z"
+  },
+  "digest": {
+    "last_dispatch": "2026-10-01T06:27:31Z",
+    "last_status": "dispatched"
   }
 }
