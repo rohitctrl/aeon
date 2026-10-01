@@ -1,0 +1,71 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat — fleet check (2026-10-01)",
+        "description": "Overall: 🔴 DEGRADED"
+      },
+      "children": [
+        "heading",
+        "sep1",
+        "alert-heartbeat",
+        "alert-bd-radar",
+        "sep2",
+        "summary",
+        "status-link"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Heartbeat — fleet check (2026-10-01)",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-heartbeat": {
+      "type": "Alert",
+      "props": {
+        "title": "🔴 heartbeat self-check",
+        "message": "last success 2026-09-22 06:50 UTC, ~9 days ago, against a daily 0 8 * * * cron. The health canary has not fired in over a week while digest and dental-lead-scout ran normally today, so the scheduler is live but heartbeat's own daily run is not landing.",
+        "type": "error"
+      }
+    },
+    "alert-bd-radar": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 bd-radar",
+        "message": "enabled in aeon.yml (30 3 * * 1, Mondays 03:30 UTC) but has no entry at all in memory/cron-state.json. It has never been dispatched by the scheduler (last Monday window was 2026-09-28).",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "No failed, stuck, or degrading skills. No open PRs; GitHub issues are disabled on this repo. Open issues: 0. Status page regenerated →",
+        "variant": "body"
+      }
+    },
+    "status-link": {
+      "type": "Link",
+      "props": {
+        "label": "docs/status.md",
+        "href": "/status/"
+      }
+    }
+  }
+}
