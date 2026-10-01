@@ -1,0 +1,245 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Data analyst & BI job market — India · 2026-10-01"
+      },
+      "children": [
+        "tldr",
+        "sep1",
+        "item1",
+        "sep2",
+        "item2",
+        "sep3",
+        "item3",
+        "sep4",
+        "glanceHead",
+        "glanceStack"
+      ]
+    },
+    "tldr": {
+      "type": "Alert",
+      "props": {
+        "title": "TL;DR",
+        "message": "Both fresh analyst reqs posted in the last 48 hours gate on Python and PySpark, not Power BI, and TeamLease's new FY27 primer puts \"repetitive reporting\" on its automation-exposed list — the ₹15L+ path is engineering-adjacent, not dashboard-only.",
+        "type": "info"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h1",
+        "b1",
+        "d1",
+        "w1",
+        "l1"
+      ]
+    },
+    "h1": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Standard Chartered — Data Analyst, Risk & CFCC (Chennai)",
+        "level": "h3"
+      }
+    },
+    "b1": {
+      "type": "Badge",
+      "props": {
+        "text": "posted 30 Sep",
+        "variant": "secondary"
+      }
+    },
+    "d1": {
+      "type": "Text",
+      "props": {
+        "text": "2+ years. SQL and Python, Jupyter, Machine Learning, Generative AI, Presto SQL, Excel Power Query, Tableau. Permanent, Global Grade Band 8, window closes 30 Oct. Comp not stated in the posting.",
+        "variant": "body"
+      }
+    },
+    "w1": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: usable today — the \"analyst\" req that still pays carries a Python + GenAI stack, so lead the application with the engineering half, not the dashboards.",
+        "variant": "muted"
+      }
+    },
+    "l1": {
+      "type": "Link",
+      "props": {
+        "label": "jobs.standardchartered.com — Data Analyst, Risk & CFCC (63205-en_GB)",
+        "href": "https://jobs.standardchartered.com/job/Data-Analyst%2C-Risk-%26-CFCC/63205-en_GB"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h2",
+        "d2",
+        "w2",
+        "l2"
+      ]
+    },
+    "h2": {
+      "type": "Heading",
+      "props": {
+        "text": "2. TeamLease FY26–27 primer: reporting roles named automation-exposed",
+        "level": "h3"
+      }
+    },
+    "d2": {
+      "type": "Text",
+      "props": {
+        "text": "Across 37,000+ digital roles: GenAI supply gap 53%, cloud 55–60%, and only ~16% of Indian IT professionals hold AI skills. GenAI developer pay runs ₹11.2L at 0–2 years to ₹34.5L at 6–8; GCC entry-level median is ₹13.2L for AI-core against ₹4.8–5.4L for AI-support.",
+        "variant": "body"
+      }
+    },
+    "w2": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: 12 of its 16 named \"premium roles\" are AI-adjacent and none are AI-support — BI and reporting sit on the wrong side of that line.",
+        "variant": "muted"
+      }
+    },
+    "l2": {
+      "type": "Link",
+      "props": {
+        "label": "ciol.com — AI salary premiums, India tech entry-level hiring pressure (TeamLease)",
+        "href": "https://www.ciol.com/tech/ai-salary-premiums-india-tech-entry-level-hiring-pressure-teamlease-12590060"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h3",
+        "b3",
+        "d3",
+        "w3",
+        "l3"
+      ]
+    },
+    "h3": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Citi — Predictive Analytics Analyst, Python/PySpark (Haryana)",
+        "level": "h3"
+      }
+    },
+    "b3": {
+      "type": "Badge",
+      "props": {
+        "text": "posted 29 Sep",
+        "variant": "secondary"
+      }
+    },
+    "d3": {
+      "type": "Text",
+      "props": {
+        "text": "3+ years, or a Master's plus 2. Python, PySpark, Hive, predictive modelling, NLP; Tableau a nice-to-have. Req 26995387, hybrid. Comp not stated.",
+        "variant": "body"
+      }
+    },
+    "w3": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: the second req in 48 hours where PySpark is the gate rather than Power BI — the engineering half of analytics is what is actually being hired this week.",
+        "variant": "muted"
+      }
+    },
+    "l3": {
+      "type": "Link",
+      "props": {
+        "label": "jobs.citi.com — Predictive Analytics Analyst, Python/PySpark (Haryana)",
+        "href": "https://jobs.citi.com/job/haryana/predictive-analytics-analyst-python-pyspark/287/101320634640"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "glanceHead": {
+      "type": "Heading",
+      "props": {
+        "text": "Also worth a glance",
+        "level": "h3"
+      }
+    },
+    "glanceStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sl1",
+        "st1",
+        "sl2",
+        "st2"
+      ]
+    },
+    "sl1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Schneider Electric \"Data Analyst I\", Gurgaon, 0–3 yrs, posted 30 Sep",
+        "href": "https://www.takeofftalent.com/2026/09/schneider-electric-is-hiring-for.html",
+        "source": "takeofftalent.com"
+      }
+    },
+    "st1": {
+      "type": "Text",
+      "props": {
+        "text": "\"advanced Excel strictly required\", MS Access an advantage: entry rung, below the ₹15L bar, but the junior layer is still Excel-first.",
+        "variant": "muted"
+      }
+    },
+    "sl2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Microsoft folded Power BI Premium capacity into Fabric F-SKUs",
+        "href": "https://teamcomputers.com/blog/microsoft-fabric-the-complete-guide-for-indian-enterprises-2026/",
+        "source": "teamcomputers.com"
+      }
+    },
+    "st2": {
+      "type": "Text",
+      "props": {
+        "text": "…and is pushing Direct Lake over import models, so a Power BI cert alone is commoditizing.",
+        "variant": "muted"
+      }
+    }
+  }
+}

@@ -11,6 +11,7 @@
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
+| 2026-10-01 | data analyst & BI job market India | TeamLease FY27 gap, fresh analyst reqs, PySpark/Python stack shift |
 
 ## Skills Built
 | Skill | Date | Notes |
