@@ -1,0 +1,125 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Dental leads 2026-10-01",
+        "description": "Dental scout"
+      },
+      "children": [
+        "stat-stack",
+        "sep1",
+        "cities-heading",
+        "city-badges",
+        "cities-note",
+        "alert-vadodara",
+        "sep2",
+        "file-text"
+      ]
+    },
+    "stat-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-leads",
+        "stat-p1",
+        "stat-p2"
+      ]
+    },
+    "stat-leads": {
+      "type": "Stat",
+      "props": {
+        "label": "Leads filed",
+        "value": "3",
+        "trend": "neutral"
+      }
+    },
+    "stat-p1": {
+      "type": "Stat",
+      "props": {
+        "label": "Priority 1",
+        "value": "2",
+        "trend": "neutral"
+      }
+    },
+    "stat-p2": {
+      "type": "Stat",
+      "props": {
+        "label": "Priority 2",
+        "value": "1",
+        "trend": "neutral"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cities-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cities scouted",
+        "level": "h3"
+      }
+    },
+    "city-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ludhiana",
+        "badge-vadodara"
+      ]
+    },
+    "badge-ludhiana": {
+      "type": "Badge",
+      "props": {
+        "text": "Ludhiana",
+        "variant": "default"
+      }
+    },
+    "badge-vadodara": {
+      "type": "Badge",
+      "props": {
+        "text": "Vadodara",
+        "variant": "outline"
+      }
+    },
+    "cities-note": {
+      "type": "Text",
+      "props": {
+        "text": "All 3 leads are in Ludhiana. Vadodara returned zero.",
+        "variant": "body"
+      }
+    },
+    "alert-vadodara": {
+      "type": "Alert",
+      "props": {
+        "title": "Vadodara returned zero",
+        "message": "AskLaila serves Bangalore data for that city; second run running.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "file-text": {
+      "type": "Text",
+      "props": {
+        "text": "File: output/dental-leads/2026-10-01.md",
+        "variant": "caption"
+      }
+    }
+  }
+}
