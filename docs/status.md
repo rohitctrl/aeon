@@ -6,8 +6,8 @@ permalink: /status/
 
 # Agent Status
 
-**Overall:** 🔴 DEGRADED
-**Updated:** 2026-10-01 13:48 UTC
+**Overall:** 🟡 WATCH
+**Updated:** 2026-10-02 08:38 UTC
 **Open issues:** 0
 **Next scheduled run:** dental-lead-scout at 00:30 UTC
 
@@ -21,17 +21,16 @@ Regressions also surface as **votable** per-skill GitHub Issues (`health: <skill
 
 | Skill | Last run | Status | Success rate | Consecutive failures |
 |-------|----------|--------|-------------:|---------------------:|
-| digest | 2026-10-01 06:31 UTC | ✅ success | 100% | 0 |
-| dental-lead-scout | 2026-10-01 00:37 UTC | ✅ success | 100% | 0 |
-| heartbeat | 2026-09-22 06:50 UTC | ✅ success | 100% | 0 |
+| dental-lead-scout | 2026-10-02 02:17 UTC | ✅ success | 100% | 0 |
+| digest | 2026-10-02 02:16 UTC | ✅ success | 100% | 0 |
+| heartbeat | 2026-10-01 13:49 UTC | ✅ success | 100% | 0 |
 | bd-radar | — | not yet run | — | — |
 
-Heartbeat's self-check is stale: its last success (`2026-09-22 06:50 UTC`) is more than 36h old against a daily `0 8 * * *` schedule, so the health canary has not fired in over a week — reported 🔴 DEGRADED. `bd-radar` is enabled (`30 3 * * 1`) but has no entry in `memory/cron-state.json`, so the scheduler has never dispatched it — reported 🟡 WATCH. `digest` and `dental-lead-scout` are healthy.
+Fleet is healthy and warmed: `digest`, `dental-lead-scout`, and `heartbeat` have all completed runs on the current schedule, and heartbeat's earlier self-check finding is resolved — its last success is inside the 36h window. `bd-radar` remains enabled (`30 3 * * 1`, Mondays 03:30 UTC) but still has no entry in `memory/cron-state.json`, so the scheduler has never dispatched it — reported 🟡 WATCH.
 
 ## Open issues
 
 No open issues.
 
 ---
-
 *Data sources: `memory/cron-state.json` (run state), `memory/issues/INDEX.md` (filed issues), `aeon.yml` (enabled skills). Page regenerated every heartbeat; the workflow auto-commits it to `main` on each run.*
