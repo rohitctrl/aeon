@@ -1,0 +1,221 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Digest: Data analyst & BI job market India",
+        "description": "Data analyst & BI job market — India · 2026-10-02"
+      },
+      "children": [
+        "tldr",
+        "sep1",
+        "i1title",
+        "i1meta",
+        "i1why",
+        "i1link",
+        "sep2",
+        "i2title",
+        "i2meta",
+        "i2why",
+        "i2link",
+        "sep3",
+        "i3title",
+        "i3meta",
+        "i3table",
+        "i3why",
+        "i3links",
+        "sep4",
+        "glanceHeading",
+        "glanceText"
+      ]
+    },
+    "tldr": {
+      "type": "Text",
+      "props": {
+        "text": "TL;DR: A remote analyst req now gates on Microsoft Fabric, not just Power BI; Kolkata's mid-rung BI req wants ETL tooling beside the BI stack; and 2026 role bands put the BI Developer at ₹8–15L while the analytics engineer climbs to ₹12–22L.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "i1title": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Sutherland — Data Analyst (Remote, India), posted today",
+        "level": "h3"
+      }
+    },
+    "i1meta": {
+      "type": "Text",
+      "props": {
+        "text": "3–7 yrs, \"minimum 2 years hands-on Microsoft Fabric or Azure analytics.\" Fabric Data Factory, Lakehouse/Warehouse, Delta Tables, star/snowflake schemas, SQL, Python (Pandas/NumPy/PySpark), Power BI; DP-600/DP-700 preferred. Comp not stated.",
+        "variant": "body"
+      }
+    },
+    "i1why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: remote + Fabric-first is the clearest read yet that medallion/Delta engineering, not dashboards, is the gate.",
+        "variant": "muted"
+      }
+    },
+    "i1link": {
+      "type": "Link",
+      "props": {
+        "label": "talanto.work/jobs/15c7341d-59d7-44dc-9e1b-e57d62e5916f",
+        "href": "https://talanto.work/jobs/15c7341d-59d7-44dc-9e1b-e57d62e5916f"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "i2title": {
+      "type": "Heading",
+      "props": {
+        "text": "2. Genpact — Analyst, BI/Reporting & Data Viz 5B (Kolkata), posted 29–30 Sep",
+        "level": "h3"
+      }
+    },
+    "i2meta": {
+      "type": "Text",
+      "props": {
+        "text": "2–5 yrs; Informatica PowerCenter, Matillion ETL, Python, SQL, VBA, Excel, Power BI, Tableau, Oracle/SAP. Comp not stated.",
+        "variant": "body"
+      }
+    },
+    "i2why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: even a mid-rung BI req now expects ETL tooling alongside the BI stack — report-only profiles are the gap.",
+        "variant": "muted"
+      }
+    },
+    "i2link": {
+      "type": "Link",
+      "props": {
+        "label": "jobaaj.com/job/genpact-analyst-bi-reporting-and-data-visualization-5b-...-kolkata-wb-2-to-5-years-1826288",
+        "href": "https://www.jobaaj.com/job/genpact-analyst-bi-reporting-and-data-visualization-5b-1401-g-india-godrej-genesis-17-flr-kolkata-wb-2-to-5-years-1826288"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "i3title": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Comp reality: the ₹15L line is a role split, not a seniority ladder",
+        "level": "h3"
+      }
+    },
+    "i3meta": {
+      "type": "Text",
+      "props": {
+        "text": "2026 India bands: BI Developer ₹8–15L (plateauing) vs Analytics Engineer ₹12–22L and Data Engineer ₹14–28L; SQL+Python+cloud ₹8–30L vs Power BI+SQL ₹6–20L. A services firm pays a 3–5 yr analyst ₹7–12L where a product firm pays ₹15–28L for a comparable profile.",
+        "variant": "body"
+      }
+    },
+    "i3table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Role / Stack",
+          "2026 India Band"
+        ],
+        "rows": [
+          [
+            "BI Developer",
+            "₹8–15L (plateauing)"
+          ],
+          [
+            "Analytics Engineer",
+            "₹12–22L"
+          ],
+          [
+            "Data Engineer",
+            "₹14–28L"
+          ],
+          [
+            "SQL + Python + cloud",
+            "₹8–30L"
+          ],
+          [
+            "Power BI + SQL",
+            "₹6–20L"
+          ],
+          [
+            "Services firm (3–5 yr analyst)",
+            "₹7–12L"
+          ],
+          [
+            "Product firm (comparable profile)",
+            "₹15–28L"
+          ]
+        ]
+      }
+    },
+    "i3why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: same title, ~2× spread — cross ₹15L by moving to the product/GCC side and the Python+cloud stack, not by adding years.",
+        "variant": "muted"
+      }
+    },
+    "i3links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "i3link1",
+        "i3link2"
+      ]
+    },
+    "i3link1": {
+      "type": "Link",
+      "props": {
+        "label": "resumevera.com/in/salary-guide/data-analyst",
+        "href": "https://resumevera.com/in/salary-guide/data-analyst"
+      }
+    },
+    "i3link2": {
+      "type": "Link",
+      "props": {
+        "label": "dattasable.com/blog/microsoft-fabric-career-roadmap-2026",
+        "href": "https://dattasable.com/blog/microsoft-fabric-career-roadmap-2026"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "glanceHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Also worth a glance",
+        "level": "h4"
+      }
+    },
+    "glanceText": {
+      "type": "Text",
+      "props": {
+        "text": "Fabric certs to hold are now DP-600 (Analytics Engineer), DP-700 (Data Engineer), DP-800 (SQL AI Developer); the same roadmap tags SQL AI Developer the \"exponential\" role at ₹16–32L (vendor blog — directional, not gospel).",
+        "variant": "body"
+      }
+    }
+  }
+}

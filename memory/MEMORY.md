@@ -12,6 +12,7 @@
 | Date | Type | Key Topics |
 |------|------|------------|
 | 2026-10-01 | data analyst & BI job market India | TeamLease FY27 gap, fresh analyst reqs, PySpark/Python stack shift |
+| 2026-10-02 | data analyst & BI job market India | Fabric-gated remote req, Genpact BI Kolkata, role-band comp reality |
 
 ## Skills Built
 | Skill | Date | Notes |

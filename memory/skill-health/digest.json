@@ -1,8 +1,8 @@
 {
   "skill": "digest",
-  "last_analyzed": "2026-10-01T06:30:55Z",
+  "last_analyzed": "2026-10-02T02:16:30Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured job-market digest with specific postings, URLs, and a clear Python/PySpark-over-Power-BI thesis; actionable and strategy-aligned, though two surfaced roles leave the ₹15L bar unverified since comp isn't stated.",
+  "assessment": "Actionable, source-linked job-market digest that leads with the conclusion and numbers, well-aligned to the job-signal priority; salary bands come from aggregator/vendor sources but are named and partly hedged.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -10,6 +10,12 @@
       "date": "2026-10-01",
       "score": 4,
       "ts": "2026-10-01T06:30:55Z",
+      "harness": "claude"
+    },
+    {
+      "date": "2026-10-02",
+      "score": 4,
+      "ts": "2026-10-02T02:16:30Z",
       "harness": "claude"
     }
   ]
