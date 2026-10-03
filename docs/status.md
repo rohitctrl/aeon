@@ -7,7 +7,7 @@ permalink: /status/
 # Agent Status
 
 **Overall:** 🟡 WATCH
-**Updated:** 2026-10-02 08:38 UTC
+**Updated:** 2026-10-03 08:17 UTC
 **Open issues:** 0
 **Next scheduled run:** dental-lead-scout at 00:30 UTC
 
@@ -21,12 +21,12 @@ Regressions also surface as **votable** per-skill GitHub Issues (`health: <skill
 
 | Skill | Last run | Status | Success rate | Consecutive failures |
 |-------|----------|--------|-------------:|---------------------:|
-| dental-lead-scout | 2026-10-02 02:17 UTC | ✅ success | 100% | 0 |
-| digest | 2026-10-02 02:16 UTC | ✅ success | 100% | 0 |
-| heartbeat | 2026-10-01 13:49 UTC | ✅ success | 100% | 0 |
+| dental-lead-scout | 2026-10-03 02:25 UTC | ✅ success | 100% | 0 |
+| digest | 2026-10-03 02:20 UTC | ✅ success | 100% | 0 |
+| heartbeat | 2026-10-02 08:39 UTC | ✅ success | 100% | 0 |
 | bd-radar | — | not yet run | — | — |
 
-Fleet is healthy and warmed: `digest`, `dental-lead-scout`, and `heartbeat` have all completed runs on the current schedule, and heartbeat's earlier self-check finding is resolved — its last success is inside the 36h window. `bd-radar` remains enabled (`30 3 * * 1`, Mondays 03:30 UTC) but still has no entry in `memory/cron-state.json`, so the scheduler has never dispatched it — reported 🟡 WATCH.
+Fleet is healthy and warmed: `dental-lead-scout`, `digest`, and `heartbeat` have all completed runs on the current schedule. `bd-radar` remains enabled (`30 3 * * 1`, Mondays 03:30 UTC) but still has no entry in `memory/cron-state.json`, so the scheduler has never dispatched it — reported 🟡 WATCH. The `chain:dev-loop` entry is dispatched but has never completed a run (warming up, under 24h) — not a fault.
 
 ## Open issues
 
