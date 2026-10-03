@@ -1,0 +1,251 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "Data/BI job market India — 2026-10-03",
+        "description": "data analyst and BI job market India - fresh roles, stack shifts, comp reality"
+      },
+      "children": [
+        "subtitle",
+        "tldr",
+        "sep1",
+        "job1",
+        "sep_j1",
+        "job2",
+        "sep_j2",
+        "job3",
+        "sep_j3",
+        "job4",
+        "sep2",
+        "glanceHeading",
+        "glance1",
+        "glance2",
+        "sep3",
+        "xaiAlert"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "data analyst and BI job market India - fresh roles, stack shifts, comp reality — 2026-10-03",
+        "variant": "caption"
+      }
+    },
+    "tldr": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "TL;DR",
+        "message": "Fresh \"data analyst\" reqs split into two tracks — GCC cloud/ML-stack roles and legacy-BI agency roles; only the modern-stack side reaches ₹15L+."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "job1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "job1link",
+        "job1details",
+        "job1why"
+      ]
+    },
+    "job1link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Trelleborg — BI & Data Analyst, Bengaluru, ₹15–17L (posted Sep 30)",
+        "href": "https://cutshort.io/job/Business-Intelligence-and-Data-Analyst-Bengaluru-Bangalore-Aanet-Talent-Global-Solutions-BHThXhyu",
+        "source": "cutshort.io",
+        "score": "₹15–17L"
+      }
+    },
+    "job1details": {
+      "type": "Text",
+      "props": {
+        "text": "The one fresh req stating comp at or above your ₹15L bar: 3–9 yrs, but the stack is legacy — SAP BW, Informatica PowerCenter, IBM Cognos, Oracle PL/SQL, SQL Server.",
+        "variant": "body"
+      }
+    },
+    "job1why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: it clears the target band today; the legacy tooling is the trade-off, so treat it as a reskilling decision, not a straight win.",
+        "variant": "muted"
+      }
+    },
+    "sep_j1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "job2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "job2link",
+        "job2details",
+        "job2why"
+      ]
+    },
+    "job2link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Optum (UnitedHealth) — Data Analyst 2, Gurgaon (posted Oct 2)",
+        "href": "https://builtin.com/job/data-analyst-2/11486008",
+        "source": "builtin.com",
+        "score": "Comp not stated"
+      }
+    },
+    "job2details": {
+      "type": "Text",
+      "props": {
+        "text": "Freshest concrete role: mid-level, 4+ yrs, gated on SQL, Power BI, Snowflake, Azure Data Factory and Python, with Tableau and Databricks preferred. Comp not stated.",
+        "variant": "body"
+      }
+    },
+    "job2why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: this is the new analyst baseline — cloud warehouse plus pipeline tooling, not Power BI alone.",
+        "variant": "muted"
+      }
+    },
+    "sep_j2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "job3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "job3link",
+        "job3details",
+        "job3why"
+      ]
+    },
+    "job3link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Euromonitor International — (Senior) Data Analyst, Bengaluru (posted ~Oct 1)",
+        "href": "https://www.jobaaj.com/job/euromonitor-internationa-senior-data-analyst-bengaluru-karnataka-india-5-to-10-years-1832583",
+        "source": "jobaaj.com",
+        "score": "Comp not stated"
+      }
+    },
+    "job3details": {
+      "type": "Text",
+      "props": {
+        "text": "Market-research firm, 5–10 yrs, hybrid; stack is Python, R, SQL, ML, Docker, REST APIs, Azure/GCS. Comp not stated.",
+        "variant": "body"
+      }
+    },
+    "job3why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: a product-side analyst seat outside the IT-services layer where BI pay plateaus.",
+        "variant": "muted"
+      }
+    },
+    "sep_j3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "job4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "job4link",
+        "job4details",
+        "job4why"
+      ]
+    },
+    "job4link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "American Express — Analyst Data Science, Gurugram/Bengaluru (posted Oct 2)",
+        "href": "https://www.takeofftalent.com/2026/10/american-express-is-hiring-for-fresher.html",
+        "source": "takeofftalent.com",
+        "score": "Comp not stated"
+      }
+    },
+    "job4details": {
+      "type": "Text",
+      "props": {
+        "text": "0–30 months, master's required; the JD demands SAS, R, Python, Hive, Spark and ML. Comp not stated.",
+        "variant": "body"
+      }
+    },
+    "job4why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: the entry rung of \"analyst\" now expects big-data and ML tooling — a learn-next signal, not a ≥₹15L seat (too junior).",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "glanceHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Also worth a glance",
+        "level": "h3"
+      }
+    },
+    "glance1": {
+      "type": "Text",
+      "props": {
+        "text": "Velocity (White Wizard) Data Analyst, Bengaluru — ₹18–25L + equity, but a Tier-1-institute gate and a month-old listing",
+        "variant": "body"
+      }
+    },
+    "glance2": {
+      "type": "Text",
+      "props": {
+        "text": "GCC entry-level analyst band sits at ₹10–18L (Taggd, Sep 4); the ₹15L+ end clusters in cloud/ML-stack reqs, not Power-BI-only ones.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "xaiAlert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Note",
+        "message": "the xAI (Grok) key returned 400 \"Incorrect API key provided\" for a third run straight — the X signal is degraded; worth rotating XAI_API_KEY."
+      }
+    }
+  }
+}
