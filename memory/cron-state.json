@@ -1,7 +1,7 @@
 {
   "heartbeat": {
-    "last_dispatch": "2026-10-02T08:37:51Z",
-    "last_status": "success",
+    "last_dispatch": "2026-10-03T08:16:59Z",
+    "last_status": "dispatched",
     "last_success": "2026-10-02T08:39:10Z",
     "total_runs": 3,
     "total_successes": 3,
@@ -32,7 +32,7 @@
     "last_quality_score": 4
   },
   "chain:dev-loop": {
-    "last_dispatch": "2026-10-02T08:37:51Z",
+    "last_dispatch": "2026-10-03T08:16:59Z",
     "last_status": "dispatched"
   }
 }
