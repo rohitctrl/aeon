@@ -1,0 +1,252 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Data/BI India digest — 2026-10-04",
+        "description": "Data analyst and BI job market India — fresh roles, stack shifts, comp reality — 2026-10-04"
+      },
+      "children": [
+        "text-sub",
+        "text-tldr",
+        "sep-1",
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4",
+        "item-5",
+        "sep-2",
+        "heading-also",
+        "text-also",
+        "sep-3",
+        "alert-x"
+      ]
+    },
+    "text-sub": {
+      "type": "Text",
+      "props": {
+        "text": "data analyst and BI job market India - fresh roles, stack shifts, comp reality — 2026-10-04",
+        "variant": "muted"
+      }
+    },
+    "text-tldr": {
+      "type": "Text",
+      "props": {
+        "text": "TL;DR: One fresh senior India req (Aon, Bengaluru, posted yesterday) and a multi-city ₹8–20L agency band; the ₹28–78L ranges circulating for Honeywell and Bristol Myers Squibb are aggregator estimates no employer states.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-1",
+        "text-1a",
+        "text-1b"
+      ]
+    },
+    "link-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "1. Aon — Data & Analytics Lead (Sr Data Analyst), Bengaluru (Whitefield) — posted Oct 3",
+        "href": "https://jobs.aon.com/jobs/106302",
+        "source": "jobs.aon.com"
+      }
+    },
+    "text-1a": {
+      "type": "Text",
+      "props": {
+        "text": "8–12 yrs plus 2–5 yrs people management, hybrid. SQL on Snowflake and Databricks, Power BI, PowerApps, Azure DevOps. Comp not disclosed.",
+        "variant": "body"
+      }
+    },
+    "text-1b": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: the one same-day India req this run — and it confirms the senior bar is cloud warehouse plus governed BI, not Excel reporting.",
+        "variant": "muted"
+      }
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-2",
+        "text-2a",
+        "text-2b"
+      ]
+    },
+    "link-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "2. Gravity Engineering Services — Data Analyst, 7 metros — ₹8–20L, posted Oct 2",
+        "href": "https://cutshort.io/job/Data-Analyst-Bengaluru-Bangalore-Hyderabad-Kolkata-Pune-Gurugram-Chennai-Mumbai-Gravity-Engineering-Services-Pvt-Ltd-SynTNdg9",
+        "source": "cutshort.io"
+      }
+    },
+    "text-2a": {
+      "type": "Text",
+      "props": {
+        "text": "3–8 yrs; SQL, Python, Power BI, Tableau, ETL. Listed via Cutshort.",
+        "variant": "body"
+      }
+    },
+    "text-2b": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: the band floor is below ₹15L, so the title alone won't clear your bar — the ₹15L+ end is the senior bracket to negotiate against.",
+        "variant": "muted"
+      }
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-3",
+        "text-3a",
+        "text-3b"
+      ]
+    },
+    "link-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "3. Comp reality — the ₹28–78L aggregator ranges are estimates, not employer data",
+        "href": "https://www.creonjobs.com/job/55694a1a-2620-4fe5-8789-aa99790750ba",
+        "source": "creonjobs.com"
+      }
+    },
+    "text-3a": {
+      "type": "Text",
+      "props": {
+        "text": "Mirrors show ₹28–38L for Honeywell \"Advanced Data Analyst\" (Bengaluru) and ₹60–78L for a Bristol Myers Squibb \"Senior Analytics Engineer\" (Hyderabad); no employer states either, and the BMS req was pulled Sep 14.",
+        "variant": "body"
+      }
+    },
+    "text-3b": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: auto-generated ranges are how inflated expectations start — anchor on employer-stated bands or sector reports (Savanna HR GCC, Q1 FY27: GCC pay ~20–25% above non-GCC, GenAI ~30–60% above adjacent engineering), not job-board mirrors.",
+        "variant": "muted"
+      }
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-4",
+        "text-4a",
+        "text-4b"
+      ]
+    },
+    "link-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "4. GitLab — Staff Data Analyst, Bengaluru — posted ~3 days ago",
+        "href": "https://builtin.com/job/staff-data-analyst/11465536",
+        "source": "builtin.com"
+      }
+    },
+    "text-4a": {
+      "type": "Text",
+      "props": {
+        "text": "SQL plus Tableau and Looker/Zendesk Explore; data modeling, dashboards, stakeholder framing; LLM/AI exposure optional. Comp not stated.",
+        "variant": "body"
+      }
+    },
+    "text-4b": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: an all-remote product company hiring BI in India — BI-tooling and modeling, a different lane from the pipeline-heavy roles above.",
+        "variant": "muted"
+      }
+    },
+    "item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-5",
+        "text-5a",
+        "text-5b"
+      ]
+    },
+    "link-5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "5. Curvion Blue — Data & Analytics Engineer, remote India — $8–10/hr (≈₹14–17L), entry level",
+        "href": "https://builtinkolkata.in/job/data-analytics-engineer/11473989",
+        "source": "builtinkolkata.in"
+      }
+    },
+    "text-5a": {
+      "type": "Text",
+      "props": {
+        "text": "SQL/Python, ETL/ELT, BigQuery, Looker Studio; US hours.",
+        "variant": "body"
+      }
+    },
+    "text-5b": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: remote-India analytics priced in USD/hour is a live comp model — the pay basis, not the title, is the story.",
+        "variant": "muted"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-also": {
+      "type": "Heading",
+      "props": {
+        "text": "Also worth a glance",
+        "level": "h3"
+      }
+    },
+    "text-also": {
+      "type": "Text",
+      "props": {
+        "text": "Maruti Techlabs Senior Analytics Engineer (Ahmedabad, dbt/Databricks/Snowflake/Azure) — same cloud stack, hiring outside the metros · entry-level \"Analytics Engineering & AI\" titles now in Bengaluru (Thermo Fisher).",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-x": {
+      "type": "Alert",
+      "props": {
+        "title": "X signal down",
+        "message": "(X signal down: xAI key http-400, day 4.)",
+        "type": "warning"
+      }
+    }
+  }
+}

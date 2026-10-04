@@ -1,29 +1,34 @@
-ℹ️ Data/BI job market India — 2026-10-03
+ℹ️ Data/BI India digest — 2026-10-04
 
-*data analyst and BI job market India - fresh roles, stack shifts, comp reality — 2026-10-03*
+*data analyst and BI job market India - fresh roles, stack shifts, comp reality — 2026-10-04*
 
-_TL;DR: Fresh "data analyst" reqs split into two tracks — GCC cloud/ML-stack roles and legacy-BI agency roles; only the modern-stack side reaches ₹15L+._
+_TL;DR: One fresh senior India req (Aon, Bengaluru, posted yesterday) and a multi-city ₹8–20L agency band; the ₹28–78L ranges circulating for Honeywell and Bristol Myers Squibb are aggregator estimates no employer states._
 
-1. *Trelleborg — BI & Data Analyst, Bengaluru, ₹15–17L (posted Sep 30)*
-   The one fresh req stating comp at or above your ₹15L bar: 3–9 yrs, but the stack is legacy — SAP BW, Informatica PowerCenter, IBM Cognos, Oracle PL/SQL, SQL Server.
-   Why it matters: it clears the target band today; the legacy tooling is the trade-off, so treat it as a reskilling decision, not a straight win.
-   https://cutshort.io/job/Business-Intelligence-and-Data-Analyst-Bengaluru-Bangalore-Aanet-Talent-Global-Solutions-BHThXhyu
+1. *Aon — Data & Analytics Lead (Sr Data Analyst), Bengaluru (Whitefield) — posted Oct 3*
+   8–12 yrs plus 2–5 yrs people management, hybrid. SQL on Snowflake and Databricks, Power BI, PowerApps, Azure DevOps. Comp not disclosed.
+   Why it matters: the one same-day India req this run — and it confirms the senior bar is cloud warehouse plus governed BI, not Excel reporting.
+   https://jobs.aon.com/jobs/106302
 
-2. *Optum (UnitedHealth) — Data Analyst 2, Gurgaon (posted Oct 2)*
-   Freshest concrete role: mid-level, 4+ yrs, gated on SQL, Power BI, Snowflake, Azure Data Factory and Python, with Tableau and Databricks preferred. Comp not stated.
-   Why it matters: this is the new analyst baseline — cloud warehouse plus pipeline tooling, not Power BI alone.
-   https://builtin.com/job/data-analyst-2/11486008
+2. *Gravity Engineering Services — Data Analyst, 7 metros — ₹8–20L, posted Oct 2*
+   3–8 yrs; SQL, Python, Power BI, Tableau, ETL. Listed via Cutshort.
+   Why it matters: the band floor is below ₹15L, so the title alone won't clear your bar — the ₹15L+ end is the senior bracket to negotiate against.
+   https://cutshort.io/job/Data-Analyst-Bengaluru-Bangalore-Hyderabad-Kolkata-Pune-Gurugram-Chennai-Mumbai-Gravity-Engineering-Services-Pvt-Ltd-SynTNdg9
 
-3. *Euromonitor International — (Senior) Data Analyst, Bengaluru (posted ~Oct 1)*
-   Market-research firm, 5–10 yrs, hybrid; stack is Python, R, SQL, ML, Docker, REST APIs, Azure/GCS. Comp not stated.
-   Why it matters: a product-side analyst seat outside the IT-services layer where BI pay plateaus.
-   https://www.jobaaj.com/job/euromonitor-internationa-senior-data-analyst-bengaluru-karnataka-india-5-to-10-years-1832583
+3. *Comp reality — the ₹28–78L aggregator ranges are estimates, not employer data*
+   Mirrors show ₹28–38L for Honeywell "Advanced Data Analyst" (Bengaluru) and ₹60–78L for a Bristol Myers Squibb "Senior Analytics Engineer" (Hyderabad); no employer states either, and the BMS req was pulled Sep 14.
+   Why it matters: auto-generated ranges are how inflated expectations start — anchor on employer-stated bands or sector reports (Savanna HR GCC, Q1 FY27: GCC pay ~20–25% above non-GCC, GenAI ~30–60% above adjacent engineering), not job-board mirrors.
+   https://www.creonjobs.com/job/55694a1a-2620-4fe5-8789-aa99790750ba
 
-4. *American Express — Analyst Data Science, Gurugram/Bengaluru (posted Oct 2)*
-   0–30 months, master's required; the JD demands SAS, R, Python, Hive, Spark and ML. Comp not stated.
-   Why it matters: the entry rung of "analyst" now expects big-data and ML tooling — a learn-next signal, not a ≥₹15L seat (too junior).
-   https://www.takeofftalent.com/2026/10/american-express-is-hiring-for-fresher.html
+4. *GitLab — Staff Data Analyst, Bengaluru — posted ~3 days ago*
+   SQL plus Tableau and Looker/Zendesk Explore; data modeling, dashboards, stakeholder framing; LLM/AI exposure optional. Comp not stated.
+   Why it matters: an all-remote product company hiring BI in India — BI-tooling and modeling, a different lane from the pipeline-heavy roles above.
+   https://builtin.com/job/staff-data-analyst/11465536
 
-*Also worth a glance:* Velocity (White Wizard) Data Analyst, Bengaluru — ₹18–25L + equity, but a Tier-1-institute gate and a month-old listing · GCC entry-level analyst band sits at ₹10–18L (Taggd, Sep 4); the ₹15L+ end clusters in cloud/ML-stack reqs, not Power-BI-only ones.
+5. *Curvion Blue — Data & Analytics Engineer, remote India — $8–10/hr (≈₹14–17L), entry level*
+   SQL/Python, ETL/ELT, BigQuery, Looker Studio; US hours.
+   Why it matters: remote-India analytics priced in USD/hour is a live comp model — the pay basis, not the title, is the story.
+   https://builtinkolkata.in/job/data-analytics-engineer/11473989
 
-_Note: the xAI (Grok) key returned 400 "Incorrect API key provided" for a third run straight — the X signal is degraded; worth rotating XAI_API_KEY._
+*Also worth a glance:* Maruti Techlabs Senior Analytics Engineer (Ahmedabad, dbt/Databricks/Snowflake/Azure) — same cloud stack, hiring outside the metros · entry-level "Analytics Engineering & AI" titles now in Bengaluru (Thermo Fisher).
+
+_(X signal down: xAI key http-400, day 4.)_
