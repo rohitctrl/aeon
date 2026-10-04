@@ -1,0 +1,175 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Dental Lead Scout",
+        "description": "5 new dental leads filed (P1=5)"
+      },
+      "children": [
+        "stats",
+        "sep1",
+        "cityheading",
+        "citytable",
+        "sep2",
+        "bestheading",
+        "beststack",
+        "sep3",
+        "fileheading",
+        "filetext"
+      ]
+    },
+    "stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "statnew",
+        "statp1",
+        "statnagpur",
+        "statvadodara"
+      ]
+    },
+    "statnew": {
+      "type": "Stat",
+      "props": {
+        "label": "New Leads Filed",
+        "value": "5"
+      }
+    },
+    "statp1": {
+      "type": "Stat",
+      "props": {
+        "label": "P1 Leads",
+        "value": "5"
+      }
+    },
+    "statnagpur": {
+      "type": "Stat",
+      "props": {
+        "label": "Nagpur",
+        "value": "5"
+      }
+    },
+    "statvadodara": {
+      "type": "Stat",
+      "props": {
+        "label": "Vadodara",
+        "value": "0"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cityheading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cities",
+        "level": "h3"
+      }
+    },
+    "citytable": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "City",
+          "Leads",
+          "Note"
+        ],
+        "rows": [
+          [
+            "Nagpur",
+            "5",
+            ""
+          ],
+          [
+            "Vadodara",
+            "0",
+            "source rate limited"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "bestheading": {
+      "type": "Heading",
+      "props": {
+        "text": "Best First",
+        "level": "h3"
+      }
+    },
+    "beststack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bestbadge",
+        "bestname",
+        "bestaddress",
+        "bestphone"
+      ]
+    },
+    "bestbadge": {
+      "type": "Badge",
+      "props": {
+        "text": "P1",
+        "variant": "destructive"
+      }
+    },
+    "bestname": {
+      "type": "Text",
+      "props": {
+        "text": "Daftari Dental Clinic",
+        "variant": "lead"
+      }
+    },
+    "bestaddress": {
+      "type": "Text",
+      "props": {
+        "text": "Dharampeth, Nagpur",
+        "variant": "body"
+      }
+    },
+    "bestphone": {
+      "type": "Text",
+      "props": {
+        "text": "9923622914",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fileheading": {
+      "type": "Heading",
+      "props": {
+        "text": "File",
+        "level": "h3"
+      }
+    },
+    "filetext": {
+      "type": "Text",
+      "props": {
+        "text": "output/dental-leads/2026-10-04.md",
+        "variant": "muted"
+      }
+    }
+  }
+}
