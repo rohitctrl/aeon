@@ -1,0 +1,193 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Dental Leads 2026-10-05",
+        "description": "5 filed — Rs 5,000 clinic offer"
+      },
+      "children": [
+        "main"
+      ]
+    },
+    "main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "intro",
+        "stats",
+        "sep1",
+        "citiesHeading",
+        "cities",
+        "sep2",
+        "bestHeading",
+        "best",
+        "sep3",
+        "warn",
+        "file"
+      ]
+    },
+    "intro": {
+      "type": "Text",
+      "props": {
+        "text": "5 dental leads filed for the Rs 5,000 clinic offer (P1 4, P2 1, P3 0).",
+        "variant": "lead"
+      }
+    },
+    "stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "sm"
+      },
+      "children": [
+        "statTotal",
+        "statP1",
+        "statP2",
+        "statP3"
+      ]
+    },
+    "statTotal": {
+      "type": "Stat",
+      "props": {
+        "label": "Filed",
+        "value": "5",
+        "trend": "neutral"
+      }
+    },
+    "statP1": {
+      "type": "Stat",
+      "props": {
+        "label": "P1",
+        "value": "4",
+        "trend": "neutral"
+      }
+    },
+    "statP2": {
+      "type": "Stat",
+      "props": {
+        "label": "P2",
+        "value": "1",
+        "trend": "neutral"
+      }
+    },
+    "statP3": {
+      "type": "Stat",
+      "props": {
+        "label": "P3",
+        "value": "0",
+        "trend": "neutral"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "citiesHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cities",
+        "level": "h4"
+      }
+    },
+    "cities": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cityVijayawada",
+        "cityVisakhapatnam"
+      ]
+    },
+    "cityVijayawada": {
+      "type": "Badge",
+      "props": {
+        "text": "Vijayawada",
+        "variant": "default"
+      }
+    },
+    "cityVisakhapatnam": {
+      "type": "Badge",
+      "props": {
+        "text": "Visakhapatnam",
+        "variant": "default"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "bestHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Best first",
+        "level": "h4"
+      }
+    },
+    "best": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lead1Heading",
+        "lead1Detail",
+        "lead2Heading"
+      ]
+    },
+    "lead1Heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Apple Dental Care, Vijayawada",
+        "level": "h4"
+      }
+    },
+    "lead1Detail": {
+      "type": "Text",
+      "props": {
+        "text": "CGHS empanelled · mobile 9391379211 · no site of its own",
+        "variant": "body"
+      }
+    },
+    "lead2Heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2. Cure Dental, Visakhapatnam",
+        "level": "h4"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "warn": {
+      "type": "Alert",
+      "props": {
+        "title": "Partial coverage",
+        "message": "healthfrog rate limited after 10 pages, so Visakhapatnam is only partly covered.",
+        "type": "warning"
+      }
+    },
+    "file": {
+      "type": "Text",
+      "props": {
+        "text": "File: output/dental-leads/2026-10-05.md",
+        "variant": "caption"
+      }
+    }
+  }
+}
