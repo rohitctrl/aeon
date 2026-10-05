@@ -11,4 +11,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-10-03,heartbeat,deepseek-flash,57305,8942,302592,0
 2026-10-04,dental-lead-scout,deepseek-flash,58743,31105,1910656,0
 2026-10-04,heartbeat,deepseek-flash,63666,15525,772736,0
-2026-10-05,digest,deepseek-flash,58775,19228,1245184,0
+2026-10-05,bd-radar,deepseek-flash,54882,22141,1462656,0

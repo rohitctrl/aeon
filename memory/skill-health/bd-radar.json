@@ -1,0 +1,16 @@
+{
+  "skill": "bd-radar",
+  "last_analyzed": "2026-10-05T05:44:17Z",
+  "quality_score": 4,
+  "assessment": "Honest, well-structured first-dispatch report that correctly gates the notification per 'silence on no signal', drafts a next-step for each of 4 deduped adjacent leads, and transparently documents a degraded X source (http-400) in its source status; leads are thin (name collisions, not inbound) and GitHub specifics aren't independently verifiable here, but they're plausibly obtained via gh.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-10-05",
+      "score": 4,
+      "ts": "2026-10-05T05:44:17Z",
+      "harness": "claude"
+    }
+  ]
+}

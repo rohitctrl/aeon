@@ -1,0 +1,58 @@
+{
+  "leads": [
+    {
+      "key": "github:issacops",
+      "class": "adjacent",
+      "fit": 3,
+      "score": 3,
+      "who": "Issac Jacob (@issacops)",
+      "signal": "Runs 'MVP Daddy Labs' initiative — same brand + same wedge (India small-business/dental websites); ~10 dental-clinic site repos + mvp-daddy-website (2025-11-28, predates operator repo) + edumate-collab tagged 'MVP daddy initiative'; also opencloser-v2 (AI SDR, 11 stars)",
+      "suggested_move": "Verify before outbound — same brand, same niche, independent account. Decide partner vs. differentiate.",
+      "links": ["https://github.com/issacops", "https://github.com/issacops/mvp-daddy-website", "https://github.com/issacops/edumate-collab", "https://github.com/issacops/opencloser-v2"],
+      "source": "github",
+      "first_seen": "2026-10-05"
+    },
+    {
+      "key": "github:ABHIMANYU993/MindMic",
+      "class": "adjacent",
+      "fit": 3,
+      "score": 3,
+      "who": "abhimanyu0x1cebyte (@ABHIMANYU993), Bangalore",
+      "signal": "Independent offline dictation app named exactly 'MindMic' (Linux/Wayland + web extension, local Whisper); created 2026-04-24, 9 days after operator's mindmic repo; not a fork, different stack",
+      "suggested_move": "DM — same name + space, different platform; float cross-platform partnership or clarify the two projects are unrelated.",
+      "links": ["https://github.com/ABHIMANYU993/MindMic"],
+      "source": "github",
+      "first_seen": "2026-10-05"
+    },
+    {
+      "key": "github:Shubhangpathak/MindMic",
+      "class": "adjacent",
+      "fit": 1,
+      "score": 1,
+      "who": "@Shubhangpathak",
+      "signal": "Independent 'MindMic' repo — meeting recorder/summarizer (JS). Name overlap only.",
+      "suggested_move": "Low priority; track for brand hygiene.",
+      "links": ["https://github.com/Shubhangpathak/MindMic"],
+      "source": "github",
+      "first_seen": "2026-10-05"
+    },
+    {
+      "key": "github:i-satya-aravind/MVP-Daddy",
+      "class": "adjacent",
+      "fit": 1,
+      "score": 1,
+      "who": "@i-satya-aravind",
+      "signal": "Independent 'MVP-Daddy' repo (Dart/Flutter, 23KB, thin). Name overlap only.",
+      "suggested_move": "Low priority; no move.",
+      "links": ["https://github.com/i-satya-aravind/MVP-Daddy"],
+      "source": "github",
+      "first_seen": "2026-10-05"
+    }
+  ],
+  "surfaced": [
+    "github:issacops",
+    "github:ABHIMANYU993/MindMic",
+    "github:Shubhangpathak/MindMic",
+    "github:i-satya-aravind/MVP-Daddy"
+  ]
+}
