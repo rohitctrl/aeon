@@ -26,6 +26,7 @@
 - Digest format: Markdown with clickable links, under 4000 chars
 - Always save files AND commit before logging
 - **Job digest filter (2026-10-06, operator):** recommend ONLY roles asking 0–2 yrs experience (fresher/junior/graduate). Drop any role requiring >2 yrs; drop postings with unstated/ambiguous experience. Never surface a >2 yr role.
+- **Job digest comp floor (2026-10-06, operator):** floor lowered from ₹15 LPA to **₹6 LPA**, market-anchored to the 0–2 yr India band (₹3.5–8 LPA; ₹6 LPA = top of fresher band / entry of product–GCC band). Flag ≥ ₹15 LPA as an outlier; never surface below ₹6 LPA. ₹15 LPA stays the north-star trajectory, not the entry gate.
 
 ## Next Priorities
 - Configure notification channels (Telegram, Discord, or Slack)

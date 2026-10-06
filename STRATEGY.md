@@ -5,7 +5,8 @@ run. Keep it short — it costs tokens each time.
 
 ## North-star metric
 
-Two pipelines, both at zero today: **a data-analyst / BI job at ≥ ₹15 LPA**, and
+Two pipelines, both at zero today: **a data-analyst / BI job** (entry level,
+≥ ₹6 LPA now → ₹15 LPA as the trajectory), and
 **paid AI-build engagements with small businesses** (WhatsApp chatbots, voice
 assistants, site rescue). Anything that moves a pipeline toward a signed offer or
 a paid client outranks everything else.
@@ -15,11 +16,13 @@ a paid client outranks everything else.
 1. **Actionable opportunities over raw lists.** Qualified, contactable, deduped,
    with the next step drafted. A list of names is not a result.
 2. **Job-market signal for data-analyst / BI roles in India and remote** — fresh
-   postings, stack shifts, comp reality. Flag anything at or above ₹15 LPA
-   immediately; never surface a role below it. **Entry-level only: never surface
-   a role that asks for more than 2 years' experience** (0–2 yrs / fresher /
-   junior / graduate roles only). If a posting's experience requirement is
-   unstated or ambiguous, treat it as >2 yrs and drop it — do not guess downward.
+   postings, stack shifts, comp reality. **Entry-level only: never surface a role
+   asking >2 yrs' experience** (0–2 yrs / fresher / junior / graduate); if
+   experience is unstated or ambiguous, treat it as >2 yrs and drop it — do not
+   guess downward. **Comp floor ₹6 LPA** (market-anchored): the 0–2 yr India band
+   runs ₹3.5–8 LPA and ₹6 LPA is the top of the fresher band / entry of the
+   product–GCC band, so it keeps only above-average entry roles. Flag anything
+   ≥ ₹15 LPA as an outlier; never surface a role below ₹6 LPA.
 3. **Silence on no signal.** If nothing worth acting on happened, send nothing.
    An "all clear" report is noise.
 4. **Cheap runs.** Hard token caps, one source pass, no research rabbit holes.
