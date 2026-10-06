@@ -1,0 +1,389 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Digest — data analyst & BI job market India (2026-10-06)",
+        "description": "data analyst and BI job market India — fresh roles, stack shifts, comp reality — 2026-10-06"
+      },
+      "children": [
+        "main"
+      ]
+    },
+    "main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "tldr",
+        "sep1",
+        "item1",
+        "sep2",
+        "item2",
+        "sep3",
+        "item3",
+        "sep4",
+        "item4"
+      ]
+    },
+    "tldr": {
+      "type": "Text",
+      "props": {
+        "text": "TL;DR: Three fresh senior analyst reqs (7–11 yrs, Bengaluru) now gate on cloud warehouse + LLM tooling — one names Claude Code and MCP as required tools — and none disclose comp, so anchor on the senior/GCC band, not aggregator listings.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item1head",
+        "item1badges",
+        "item1body",
+        "item1why",
+        "item1link"
+      ]
+    },
+    "item1head": {
+      "type": "Heading",
+      "props": {
+        "text": "ZoomInfo — Senior Data Analyst, Bengaluru (hybrid), 7–9 yrs, posted Oct 5",
+        "level": "h3"
+      }
+    },
+    "item1badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item1b1",
+        "item1b2",
+        "item1b3",
+        "item1b4"
+      ]
+    },
+    "item1b1": {
+      "type": "Badge",
+      "props": {
+        "text": "7–9 yrs",
+        "variant": "secondary"
+      }
+    },
+    "item1b2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bengaluru (hybrid)",
+        "variant": "secondary"
+      }
+    },
+    "item1b3": {
+      "type": "Badge",
+      "props": {
+        "text": "Posted Oct 5",
+        "variant": "outline"
+      }
+    },
+    "item1b4": {
+      "type": "Badge",
+      "props": {
+        "text": "Comp not stated",
+        "variant": "outline"
+      }
+    },
+    "item1body": {
+      "type": "Text",
+      "props": {
+        "text": "JD requires SQL, Snowflake, BigQuery, Python/PySpark, Databricks, AWS/GCP and — unusually — Claude Code and MCP integrations plus prompt engineering.",
+        "variant": "body"
+      }
+    },
+    "item1why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: at the senior end \"data analyst\" now means shipping AI-tooled pipelines, not dashboards — a stack to close this quarter.",
+        "variant": "muted"
+      }
+    },
+    "item1link": {
+      "type": "Link",
+      "props": {
+        "label": "builtin.com/job/senior-data-analyst/11501802",
+        "href": "https://builtin.com/job/senior-data-analyst/11501802"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item2head",
+        "item2badges",
+        "item2body",
+        "item2why",
+        "item2link"
+      ]
+    },
+    "item2head": {
+      "type": "Heading",
+      "props": {
+        "text": "Eli Lilly — Data Analyst (Consultant/Senior Consultant), Bengaluru, 4+ yrs, posted Oct 5",
+        "level": "h3"
+      }
+    },
+    "item2badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item2b1",
+        "item2b2",
+        "item2b3",
+        "item2b4"
+      ]
+    },
+    "item2b1": {
+      "type": "Badge",
+      "props": {
+        "text": "4+ yrs",
+        "variant": "secondary"
+      }
+    },
+    "item2b2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bengaluru",
+        "variant": "secondary"
+      }
+    },
+    "item2b3": {
+      "type": "Badge",
+      "props": {
+        "text": "Posted Oct 5",
+        "variant": "outline"
+      }
+    },
+    "item2b4": {
+      "type": "Badge",
+      "props": {
+        "text": "Comp not stated",
+        "variant": "outline"
+      }
+    },
+    "item2body": {
+      "type": "Text",
+      "props": {
+        "text": "Pharma commercial/HCP analytics on Databricks (Unity Catalog, Delta Lake); advanced SQL, PySpark/Python/SAS, Power BI/Tableau, CI/CD, and interest in agentic-AI/LLM workflows.",
+        "variant": "body"
+      }
+    },
+    "item2why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: a legacy-SAS shop now asks for Databricks and LLM delivery in one req — the modern-stack bar has reached regulated sectors.",
+        "variant": "muted"
+      }
+    },
+    "item2link": {
+      "type": "Link",
+      "props": {
+        "label": "jobaaj.com/job/eli-lilly-data-analyst-consultant-senior-consultant-in-lilly-bengaluru-india-5-to-10-years-1837248",
+        "href": "https://www.jobaaj.com/job/eli-lilly-data-analyst-consultant-senior-consultant-in-lilly-bengaluru-india-5-to-10-years-1837248"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item3head",
+        "item3badges",
+        "item3body",
+        "item3why",
+        "item3link"
+      ]
+    },
+    "item3head": {
+      "type": "Heading",
+      "props": {
+        "text": "Western Digital — Senior HR Data Analyst, Bengaluru (office), 8+ yrs, posted ~12h ago",
+        "level": "h3"
+      }
+    },
+    "item3badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "item3b1",
+        "item3b2",
+        "item3b3",
+        "item3b4"
+      ]
+    },
+    "item3b1": {
+      "type": "Badge",
+      "props": {
+        "text": "8+ yrs",
+        "variant": "secondary"
+      }
+    },
+    "item3b2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bengaluru (office)",
+        "variant": "secondary"
+      }
+    },
+    "item3b3": {
+      "type": "Badge",
+      "props": {
+        "text": "Posted ~12h ago",
+        "variant": "outline"
+      }
+    },
+    "item3b4": {
+      "type": "Badge",
+      "props": {
+        "text": "Comp not stated",
+        "variant": "outline"
+      }
+    },
+    "item3body": {
+      "type": "Text",
+      "props": {
+        "text": "Workday/SuccessFactors HRIS analytics; advanced SQL, Tableau/Power BI, data modeling, with Python/R and cloud AI-ML preferred.",
+        "variant": "body"
+      }
+    },
+    "item3why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: people analytics is a fresh SQL+BI opening at GCC pay without a data-engineering title.",
+        "variant": "muted"
+      }
+    },
+    "item3link": {
+      "type": "Link",
+      "props": {
+        "label": "jobaaj.com/job/western-digital-analyst-4-data-analytics-senior-hr-data-analyst-tableau-analytics-bengaluru-ka-india-5-to-10-years-1840784",
+        "href": "https://www.jobaaj.com/job/western-digital-analyst-4-data-analytics-senior-hr-data-analyst-tableau-analytics-bengaluru-ka-india-5-to-10-years-1840784"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item4head",
+        "item4stats",
+        "item4body",
+        "item4why",
+        "item4link"
+      ]
+    },
+    "item4head": {
+      "type": "Heading",
+      "props": {
+        "text": "Comp reality: senior band ₹18–30L, but no fresh req states a number",
+        "level": "h3"
+      }
+    },
+    "item4stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "item4s1",
+        "item4s2",
+        "item4s3"
+      ]
+    },
+    "item4s1": {
+      "type": "Stat",
+      "props": {
+        "label": "Senior analysts (5–10 yrs)",
+        "value": "₹15–25L"
+      }
+    },
+    "item4s2": {
+      "type": "Stat",
+      "props": {
+        "label": "GCCs",
+        "value": "₹18–30L"
+      }
+    },
+    "item4s3": {
+      "type": "Stat",
+      "props": {
+        "label": "Product",
+        "value": "₹20–35L"
+      }
+    },
+    "item4body": {
+      "type": "Text",
+      "props": {
+        "text": "A Sept-2026 salary guide puts senior analysts (5–10 yrs) at ₹15–25L, GCCs ₹18–30L, product ₹20–35L; a Python + dashboard premium adds 20–40% over SQL+Excel. Today's fresh senior reqs all read \"comp not stated\".",
+        "variant": "body"
+      }
+    },
+    "item4why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: employer-disclosed bands stay rare — benchmark against the senior/GCC range, not auto-estimated aggregator figures.",
+        "variant": "muted"
+      }
+    },
+    "item4link": {
+      "type": "Link",
+      "props": {
+        "label": "intervue.io/blog/data-analyst-salary-india",
+        "href": "https://www.intervue.io/blog/data-analyst-salary-india"
+      }
+    }
+  }
+}

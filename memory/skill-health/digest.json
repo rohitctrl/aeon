@@ -1,8 +1,8 @@
 {
   "skill": "digest",
-  "last_analyzed": "2026-10-05T05:43:52Z",
+  "last_analyzed": "2026-10-06T08:09:03Z",
   "quality_score": 4,
-  "assessment": "Substantive, well-structured India data/BI job-market digest with fresh dated roles, URLs, and 'why it matters' stack-shift analysis aligned to the job-signal priority, though comp is unstated across all four so the ₹15 LPA gate can't be confirmed and next-step/contact drafts are absent.",
+  "assessment": "Substantive, well-sourced job-market digest with specific fresh reqs, stack analysis, and comp benchmarks clearly aligned to the operator's data-analyst/BI priority; would be a 5 with an explicit drafted next step per role and clearer ≥₹15 LPA qualification.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -34,6 +34,12 @@
       "date": "2026-10-05",
       "score": 4,
       "ts": "2026-10-05T05:43:52Z",
+      "harness": "claude"
+    },
+    {
+      "date": "2026-10-06",
+      "score": 4,
+      "ts": "2026-10-06T08:09:03Z",
       "harness": "claude"
     }
   ]

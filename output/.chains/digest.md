@@ -1,29 +1,25 @@
-ℹ️ Digest: India data/BI job market — 2026-10-05
+ℹ️ Digest — data analyst & BI job market India (2026-10-06)
 
-*data analyst and BI job market India — fresh roles, stack shifts, comp reality — 2026-10-05*
+*data analyst and BI job market India — fresh roles, stack shifts, comp reality — 2026-10-06*
 
-_TL;DR: September's India hiring split hard — AI/ML roles +20% and GCCs +4% while IT services shed 4% — and fresh analyst reqs now gate on a cloud warehouse plus Python, not Power BI alone._
+_TL;DR: Three fresh senior analyst reqs (7–11 yrs, Bengaluru) now gate on cloud warehouse + LLM tooling — one names Claude Code and MCP as required tools — and none disclose comp, so anchor on the senior/GCC band, not aggregator listings._
 
-1. *GCC Nexus — Data Analyst, Bangalore (2–5 yrs, posted ~1 day ago)*
-   Live, office-based Bangalore req: Python/R/SQL, Pandas/scikit-learn, Tableau, Google Analytics, and cloud warehouses (Snowflake, BigQuery, Redshift). Comp not stated.
-   Why it matters: this is the current mid-level bar in one line — SQL plus a cloud warehouse plus Python; Excel-and-Power-BI-only profiles no longer match fresh JDs.
-   https://www.jobaaj.com/job/gcc-nexus-data-analyst-bangalore-india-2-to-5-years-1837107
+1. *ZoomInfo — Senior Data Analyst, Bengaluru (hybrid), 7–9 yrs, posted Oct 5*
+   JD requires SQL, Snowflake, BigQuery, Python/PySpark, Databricks, AWS/GCP and — unusually — Claude Code and MCP integrations plus prompt engineering.
+   Why it matters: at the senior end "data analyst" now means shipping AI-tooled pipelines, not dashboards — a stack to close this quarter.
+   https://builtin.com/job/senior-data-analyst/11501802
 
-2. *Naukri JobSpeak, September 2026: AI/ML +20%, GCCs +4%, IT services -4%*
-   India white-collar hiring rose 2% YoY. AI/ML was the standout (+20%, "record"); GCCs and BPO/ITES +4% each. Geography split: Hyderabad +9%, Chennai +6%, Bengaluru +4% vs Delhi-NCR -6%, Mumbai -6%.
-   Why it matters: it turns "apply everywhere" into a shortlist — GCC/analytics hubs in Hyderabad, Chennai and Bengaluru are where reqs are growing; IT-services and NCR/Mumbai reqs are shrinking.
-   https://teksands.ai/news/india-hiring-grew-2-ai-ml-grew-20-that-s-the-whole-story
+2. *Eli Lilly — Data Analyst (Consultant/Senior Consultant), Bengaluru, 4+ yrs, posted Oct 5*
+   Pharma commercial/HCP analytics on Databricks (Unity Catalog, Delta Lake); advanced SQL, PySpark/Python/SAS, Power BI/Tableau, CI/CD, and interest in agentic-AI/LLM workflows.
+   Why it matters: a legacy-SAS shop now asks for Databricks and LLM delivery in one req — the modern-stack bar has reached regulated sectors.
+   https://www.jobaaj.com/job/eli-lilly-data-analyst-consultant-senior-consultant-in-lilly-bengaluru-india-5-to-10-years-1837248
 
-3. *ADM — Director, Data, Analytics & AI, Bengaluru GCC (15+ yrs)*
-   Senior GCC leadership req: Azure + Databricks (SAP Datasphere preferred), Power BI/Tableau (SAP Analytics Cloud preferred), master-data governance/quality, and MLOps/automation. Comp not stated.
-   Why it matters: the stack order has flipped — legacy SAP BI is now the "preferred" overlay on a cloud stack (Databricks/Azure), the reverse of the 2022 default.
-   https://www.sercanto.in/detail/a/director-data-analytics-ai-india-gcc-t500_bengaluru_254450859
+3. *Western Digital — Senior HR Data Analyst, Bengaluru (office), 8+ yrs, posted ~12h ago*
+   Workday/SuccessFactors HRIS analytics; advanced SQL, Tableau/Power BI, data modeling, with Python/R and cloud AI-ML preferred.
+   Why it matters: people analytics is a fresh SQL+BI opening at GCC pay without a data-engineering title.
+   https://www.jobaaj.com/job/western-digital-analyst-4-data-analytics-senior-hr-data-analyst-tableau-analytics-bengaluru-ka-india-5-to-10-years-1840784
 
-4. *MariaDB — Senior Data Analytics Engineer, India Remote (7+ yrs)*
-   Remote-India senior role: expert SQL, BigQuery + MariaDB, Python/JavaScript, FastAPI, plus LLM/generative-AI work; a public GitHub profile is required. Comp not stated ("competitive package").
-   Why it matters: a senior remote-India analytics-engineering JD now bundles AI/LLM delivery and a public GitHub profile — the analyst/engineer line is effectively gone at the senior end.
-   https://www.remoterocketship.com/publicjobs/company/mariadb/jobs/senior-data-analytics-engineer-india-remote-2/
-
-*Also worth a glance:* India's top-5 IT firms cut ~7,000 roles in FY26 (vs ~12,700 added in FY25) while AI/cloud/data skills grow — routine data-processing roles most exposed (teksands, Oct 2) · HighLevel Lead Product Data Analyst (remote India, 7+ yrs, Snowflake + dbt, comp not stated; ~9 days old).
-
-_Comp reality: none of today's four fresh reqs states a figure — employer-disclosed bands stay rare._
+4. *Comp reality: senior band ₹18–30L, but no fresh req states a number*
+   A Sept-2026 salary guide puts senior analysts (5–10 yrs) at ₹15–25L, GCCs ₹18–30L, product ₹20–35L; a Python + dashboard premium adds 20–40% over SQL+Excel. Today's fresh senior reqs all read "comp not stated".
+   Why it matters: employer-disclosed bands stay rare — benchmark against the senior/GCC range, not auto-estimated aggregator figures.
+   https://www.intervue.io/blog/data-analyst-salary-india
