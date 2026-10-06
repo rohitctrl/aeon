@@ -39,7 +39,7 @@ skills:
 
   # --- Afternoon (2 PM UTC) ---
   article: { enabled: false, schedule: "0 14 * * *", var: "" } # long-form article. var: empty=standard | repo:<owner/repo> | lens:<topic>; append --visual for a Replicate hero image (angles fold in repo-article/project-lens/technical-explainer)
-  digest: { enabled: true, schedule: "0 2 * * *", var: "data analyst and BI job market India - fresh roles, stack shifts, comp reality" } # topic digest across web + X + RSS. var: empty=web | <topic> | rss[:<topic>] | "<topic> +rss" (RSS feeds from memory/feeds.yml)
+  digest: { enabled: true, schedule: "0 2 * * *", var: "data analyst and BI job market India - fresh roles, stack shifts, comp reality - ENTRY LEVEL ONLY: only roles asking 0-2 yrs experience (fresher/junior/graduate); drop any role requiring more than 2 years, and drop any posting whose experience requirement is unstated or ambiguous" } # topic digest across web + X + RSS. var: empty=web | <topic> | rss[:<topic>] | "<topic> +rss" (RSS feeds from memory/feeds.yml). Job digest is entry-level-only filter per operator (2026-10-06)
   you-web-search: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — high-quality web search via You.com API. var: search query/topic; runs keyless with no setup (100/day per IP), YDC_API_KEY unlocks keyed limits + livecrawl via YOUCOM_LIVECRAWL
   last30: { enabled: false, schedule: "workflow_dispatch", var: "" } # on-demand — cross-platform 30-day social research
   search-skill: { enabled: false, schedule: "0 14 * * *" }

@@ -25,6 +25,7 @@
 ## Lessons Learned
 - Digest format: Markdown with clickable links, under 4000 chars
 - Always save files AND commit before logging
+- **Job digest filter (2026-10-06, operator):** recommend ONLY roles asking 0–2 yrs experience (fresher/junior/graduate). Drop any role requiring >2 yrs; drop postings with unstated/ambiguous experience. Never surface a >2 yr role.
 
 ## Next Priorities
 - Configure notification channels (Telegram, Discord, or Slack)

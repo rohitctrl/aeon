@@ -16,7 +16,10 @@ a paid client outranks everything else.
    with the next step drafted. A list of names is not a result.
 2. **Job-market signal for data-analyst / BI roles in India and remote** — fresh
    postings, stack shifts, comp reality. Flag anything at or above ₹15 LPA
-   immediately; never surface a role below it.
+   immediately; never surface a role below it. **Entry-level only: never surface
+   a role that asks for more than 2 years' experience** (0–2 yrs / fresher /
+   junior / graduate roles only). If a posting's experience requirement is
+   unstated or ambiguous, treat it as >2 yrs and drop it — do not guess downward.
 3. **Silence on no signal.** If nothing worth acting on happened, send nothing.
    An "all clear" report is noise.
 4. **Cheap runs.** Hard token caps, one source pass, no research rabbit holes.
