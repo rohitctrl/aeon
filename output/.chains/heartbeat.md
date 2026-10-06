@@ -1,34 +1,29 @@
-**Heartbeat — mode: ambient · 2026-10-05 12:41 UTC · `${var}` empty (default scheduled path)**
+HEARTBEAT_OK · STATUS_PAGE=OK
 
-## Fleet check
+Ambient fleet check (empty `${var}`, the live scheduled path) — nothing needs attention, so no notification was sent.
 
-**Overall: 🟢 OK — no findings, no notification sent.**
+**P0 — Failed & stuck skills:** clean. No skill has `last_status: "failed"`. No stuck skills (heartbeat's own entry excluded). The `chain:dev-loop` entry is stamped `dispatched` (~19h ago) but has never completed a run — as an on-demand `workflow_dispatch` chain under 24h old, it's warming-up, not stuck. No `consecutive_failures >= 3`, no chronic failures (`success_rate < 0.5`), and heartbeat's self-check is fresh (last success 2026-10-05 12:41 UTC, ~19h ago).
 
-Fleet is warmed (all four enabled skills have completed runs). P0–P3 all clear:
+**P1 — Stalled PRs & urgent issues:** 0 open PRs; GitHub issues are disabled on `rohitctrl/aeon`, so nothing to triage.
 
-- **P0 (failed/stuck/degraded)** — clear. No `last_status: failed`, no stuck skills, no `consecutive_failures ≥ 3`, no chronic failures (`success_rate < 0.5`). Heartbeat self-check does not fire (~28h since last success, inside the 36h window).
-- **`bd-radar` cleared** — the Monday smoke test flagged as pending in the 10-04 log **passed today**: dispatched 05:40:58Z → succeeded 05:44:19Z (1/1, quality 4). It is no longer a warming-up watch-item; the Monday cron is wired.
-- **`chain:dev-loop`** — stamped `dispatched` (2026-10-04T08:44:08Z, identical to heartbeat's own last dispatch) but never completed. It's an on-demand `workflow_dispatch` chain, so the stamp mirrors the heartbeat dispatch — a scheduler artifact, not a fault (consistent with the 10-02→10-04 reads).
-- **P1** — no open PRs (`gh pr list` empty); GitHub issues disabled on `rohitctrl/aeon`. **P2** — MEMORY.md "Next Priorities" are fork defaults, both satisfied. **P3** — every enabled skill has a state entry and a current success; none stale beyond 2× its interval.
-- **Token pulse** — omitted (no `output/articles/token-report-*.md`).
+**P2 — Flagged memory items:** none outstanding.
 
-## Skill health (last 7 days)
+**P3 — Missing scheduled skills:** all four enabled skills — `dental-lead-scout`, `digest`, `bd-radar`, `heartbeat` — have cron-state entries, and none is >2× its schedule interval stale.
+
+**Fleet snapshot**
 
 | Skill | Last run | Status | Success rate | Consec. failures |
 |-------|----------|--------|-------------:|-----------------:|
-| dental-lead-scout | 2026-10-05 05:47 UTC | ✅ success | 100% (7/7) | 0 |
+| dental-lead-scout | 2026-10-06 01:38 UTC | ✅ success | 100% (8/8) | 0 |
+| heartbeat | 2026-10-05 12:41 UTC | ✅ success | 100% (6/6) | 0 |
 | bd-radar | 2026-10-05 05:44 UTC | ✅ success | 100% (1/1) | 0 |
 | digest | 2026-10-05 05:44 UTC | ✅ success | 100% (5/5) | 0 |
-| heartbeat | 2026-10-04 08:45 UTC | ✅ success | 100% (5/5) | 0 |
 
-Open issues: **0**. Next scheduled run: **dental-lead-scout at 00:30 UTC (2026-10-06)**.
-
-`HEARTBEAT_OK · STATUS_PAGE=OK`
+Overall status page verdict: **🟢 OK**.
 
 ## Summary
 
-- Ran the ambient fleet-health check (default branch; `${var}` empty). All priority tiers P0–P3 clear; fleet warmed with zero failures across all four enabled skills.
-- Regenerated `docs/status.md` → overall 🟢 OK, 4 skill rows, no token-pulse section (no report file), next run dental-lead-scout 00:30 UTC 2026-10-06. The workflow auto-commits it to `main`.
-- Appended a `### heartbeat` / `mode: ambient` entry to `memory/logs/2026-10-05.md`.
-- **No notification sent** — a clean run with nothing actionable stays silent (per STRATEGY "silence on no signal").
-- No follow-up actions needed.
+- Ran the `heartbeat` ambient fleet check (default branch — empty `${var}`); no findings, no notification (per "silence on no signal").
+- Regenerated `docs/status.md` with overall 🟢 OK, the four enabled skills sorted by last run, and the `chain:dev-loop` scheduler-artifact note; the Token pulse section was omitted (no `output/articles/token-report-*.md` exists).
+- Appended a `### heartbeat` entry (`mode: ambient`) to `memory/logs/2026-10-06.md`.
+- Follow-ups: none required. One recurring background signal worth noting (already reported in the 2026-10-05 logs, so deliberately not re-notified): the injected `XAI_API_KEY` is rejected (`http-400`, "Incorrect API key provided") — now multi-day — degrading `digest` and `bd-radar`'s X layer; it needs rotating in repo secrets.
