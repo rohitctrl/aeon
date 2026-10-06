@@ -1,0 +1,138 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Dental Lead Scout"
+      },
+      "children": [
+        "leadHeading",
+        "leadSummary",
+        "statRow",
+        "sep1",
+        "tableHeading",
+        "leadsTable",
+        "sep2",
+        "fileNote"
+      ]
+    },
+    "leadHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Dental leads: 5 filed for Pune",
+        "level": "h2"
+      }
+    },
+    "leadSummary": {
+      "type": "Text",
+      "props": {
+        "text": "P1: 4 · P2: 1",
+        "variant": "muted"
+      }
+    },
+    "statRow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "statTotal",
+        "statP1",
+        "statP2"
+      ]
+    },
+    "statTotal": {
+      "type": "Stat",
+      "props": {
+        "label": "Leads filed",
+        "value": "5"
+      }
+    },
+    "statP1": {
+      "type": "Stat",
+      "props": {
+        "label": "P1",
+        "value": "4"
+      }
+    },
+    "statP2": {
+      "type": "Stat",
+      "props": {
+        "label": "P2",
+        "value": "1"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tableHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Leads",
+        "level": "h3"
+      }
+    },
+    "leadsTable": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Clinic",
+          "Location",
+          "Contact",
+          "Note"
+        ],
+        "rows": [
+          [
+            "Enamel Dental Care",
+            "Wakad",
+            "9423401785",
+            "Mobile — WhatsApp viable"
+          ],
+          [
+            "Dental Design",
+            "Sadashiv Peth",
+            "020 30868720",
+            "Landline"
+          ],
+          [
+            "Global Dental Care",
+            "Kharadi",
+            "020 39629050",
+            "Landline"
+          ],
+          [
+            "Smile Planet Dental Clinic",
+            "Dattawadi",
+            "020 39628396",
+            "Landline"
+          ],
+          [
+            "Dento Relief Centre",
+            "Aundh",
+            "020 39618487",
+            "Landline"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fileNote": {
+      "type": "Text",
+      "props": {
+        "text": "File: output/dental-leads/2026-10-06.md",
+        "variant": "caption"
+      }
+    }
+  }
+}
