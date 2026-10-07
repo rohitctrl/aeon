@@ -1,11 +1,12 @@
-✅ Dental Lead Scout
+✅ Dental leads: 5 P1 (Ranchi, Madurai)
 
-**Dental leads: 5 filed for Pune** (P1 4, P2 1)
+**5 dental leads filed**, all P1 (no site, mobile number). Cities: Ranchi, Madurai.
 
-- Enamel Dental Care, Wakad (mobile 9423401785, WhatsApp viable)
-- Dental Design, Sadashiv Peth (landline 020 30868720)
-- Global Dental Care, Kharadi (landline 020 39629050)
-- Smile Planet Dental Clinic, Dattawadi (landline 020 39628396)
-- Dento Relief Centre, Aundh (landline 020 39618487)
+Send order, best first:
+1. Venlakhs Dento Care, Madurai. 7708185982
+2. Dr Jyoti Dental Care, Ranchi. 8757888121
+3. Agaram Dental Clinic, Madurai. 9894382456
+4. Shree Vinayak Dental Clinic, Ranchi. 9470979641
+5. Thaikkaneela Dental Clinic, Madurai. 9360313107
 
-File: `output/dental-leads/2026-10-06.md`
+All WhatsApp-viable. Drafts + sourcing: `output/dental-leads/2026-10-07.md`

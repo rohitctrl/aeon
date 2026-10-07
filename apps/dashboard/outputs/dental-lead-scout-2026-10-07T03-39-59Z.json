@@ -1,0 +1,181 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Dental leads: 5 P1 (Ranchi, Madurai)",
+        "description": "5 dental leads filed — all P1 (no site, mobile number). All WhatsApp-viable."
+      },
+      "children": [
+        "badge-row",
+        "stats-grid",
+        "sep-1",
+        "h-send",
+        "table-leads",
+        "sep-2",
+        "sourcing"
+      ]
+    },
+    "badge-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-count",
+        "badge-p1",
+        "badge-ranchi",
+        "badge-madurai",
+        "badge-wa"
+      ]
+    },
+    "badge-count": {
+      "type": "Badge",
+      "props": {
+        "text": "5 leads",
+        "variant": "default"
+      }
+    },
+    "badge-p1": {
+      "type": "Badge",
+      "props": {
+        "text": "P1 priority",
+        "variant": "destructive"
+      }
+    },
+    "badge-ranchi": {
+      "type": "Badge",
+      "props": {
+        "text": "Ranchi",
+        "variant": "secondary"
+      }
+    },
+    "badge-madurai": {
+      "type": "Badge",
+      "props": {
+        "text": "Madurai",
+        "variant": "secondary"
+      }
+    },
+    "badge-wa": {
+      "type": "Badge",
+      "props": {
+        "text": "WhatsApp-viable",
+        "variant": "outline"
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-leads",
+        "stat-p1",
+        "stat-cities",
+        "stat-channel"
+      ]
+    },
+    "stat-leads": {
+      "type": "Stat",
+      "props": {
+        "label": "Leads filed",
+        "value": "5"
+      }
+    },
+    "stat-p1": {
+      "type": "Stat",
+      "props": {
+        "label": "Priority",
+        "value": "P1"
+      }
+    },
+    "stat-cities": {
+      "type": "Stat",
+      "props": {
+        "label": "Cities",
+        "value": "2"
+      }
+    },
+    "stat-channel": {
+      "type": "Stat",
+      "props": {
+        "label": "Channel",
+        "value": "WhatsApp"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h-send": {
+      "type": "Heading",
+      "props": {
+        "text": "Send order (best first)",
+        "level": "h3"
+      }
+    },
+    "table-leads": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "#",
+          "Clinic",
+          "City",
+          "Phone"
+        ],
+        "rows": [
+          [
+            "1",
+            "Venlakhs Dento Care",
+            "Madurai",
+            "7708185982"
+          ],
+          [
+            "2",
+            "Dr Jyoti Dental Care",
+            "Ranchi",
+            "8757888121"
+          ],
+          [
+            "3",
+            "Agaram Dental Clinic",
+            "Madurai",
+            "9894382456"
+          ],
+          [
+            "4",
+            "Shree Vinayak Dental Clinic",
+            "Ranchi",
+            "9470979641"
+          ],
+          [
+            "5",
+            "Thaikkaneela Dental Clinic",
+            "Madurai",
+            "9360313107"
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sourcing": {
+      "type": "Text",
+      "props": {
+        "text": "Drafts + sourcing: output/dental-leads/2026-10-07.md",
+        "variant": "muted"
+      }
+    }
+  }
+}
