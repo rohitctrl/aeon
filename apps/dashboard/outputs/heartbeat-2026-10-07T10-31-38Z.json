@@ -1,0 +1,117 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat",
+        "description": "⚠️ Fleet: digest stuck"
+      },
+      "children": [
+        "alert-digest",
+        "sep-1",
+        "heading-other",
+        "text-other",
+        "grid-stats",
+        "sep-2",
+        "stack-status"
+      ]
+    },
+    "alert-digest": {
+      "type": "Alert",
+      "props": {
+        "title": "🔴 STUCK: digest",
+        "message": "Dispatched 2026-10-07 03:25 UTC (~7h ago), never reported back. No `output/digest/2026-10-07.md`; state sat at `dispatched` against a 26h-old last success — a hang, not a fresh dispatch.",
+        "type": "error"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-other": {
+      "type": "Heading",
+      "props": {
+        "text": "Nothing else flagged",
+        "level": "h3"
+      }
+    },
+    "text-other": {
+      "type": "Text",
+      "props": {
+        "text": "No failed skills, no stalled PRs (none open; issues disabled), all other enabled skills green:",
+        "variant": "body"
+      }
+    },
+    "grid-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-dental",
+        "stat-heartbeat",
+        "stat-bdradar"
+      ]
+    },
+    "stat-dental": {
+      "type": "Stat",
+      "props": {
+        "label": "dental-lead-scout",
+        "value": "9/9",
+        "trend": "neutral"
+      }
+    },
+    "stat-heartbeat": {
+      "type": "Stat",
+      "props": {
+        "label": "heartbeat",
+        "value": "7/7",
+        "trend": "neutral"
+      }
+    },
+    "stat-bdradar": {
+      "type": "Stat",
+      "props": {
+        "label": "bd-radar",
+        "value": "1/1",
+        "trend": "neutral"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-status",
+        "text-status"
+      ]
+    },
+    "badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "Status page: 🔴 DEGRADED",
+        "variant": "destructive"
+      }
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "docs/status.md updated",
+        "variant": "muted"
+      }
+    }
+  }
+}
