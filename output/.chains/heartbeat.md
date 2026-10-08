@@ -1,7 +1,9 @@
-⚠️ Fleet: digest stuck
+🚨 Heartbeat — fleet degraded (digest stuck 2 days)
 
-🔴 **STUCK: digest** — dispatched 2026-10-07 03:25 UTC (~7h ago), never reported back. No `output/digest/2026-10-07.md`; state sat at `dispatched` against a 26h-old last success — a hang, not a fresh dispatch.
+🔴 STUCK: **digest** — dispatched 2026-10-08 02:00 UTC and never reported back (~7h). Second consecutive missed daily run: the 10-07 **and** 10-08 dispatches both hung, and there is no `output/digest/*.md` since 10-06.
 
-Nothing else flagged: no failed skills, no stalled PRs (none open; issues disabled), all other enabled skills green (dental-lead-scout 9/9, heartbeat 7/7, bd-radar 1/1).
+🟡 STALE: digest's last success is 2026-10-06 08:09 UTC — now **>2× its daily interval**, so the primary job-market pipeline has produced nothing for two days.
 
-Status page: **🔴 DEGRADED** — `docs/status.md` updated.
+Everything else green: dental-lead-scout 10/10, bd-radar 1/1, heartbeat 8/8. No open PRs; issues disabled.
+
+Next step: inspect the digest workflow — two dispatches in a row hung before writing any output.

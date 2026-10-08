@@ -1,0 +1,112 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "🚨 Heartbeat — fleet degraded (digest stuck 2 days)"
+      },
+      "children": [
+        "alert-stuck",
+        "alert-stale",
+        "sep-1",
+        "heading-fleet",
+        "stack-fleet",
+        "text-prs",
+        "sep-2",
+        "heading-next",
+        "text-next"
+      ]
+    },
+    "alert-stuck": {
+      "type": "Alert",
+      "props": {
+        "title": "🔴 STUCK: digest",
+        "message": "Dispatched 2026-10-08 02:00 UTC and never reported back (~7h). Second consecutive missed daily run: the 10-07 and 10-08 dispatches both hung, and there is no output/digest/*.md since 10-06.",
+        "type": "error"
+      }
+    },
+    "alert-stale": {
+      "type": "Alert",
+      "props": {
+        "title": "🟡 STALE: digest",
+        "message": "digest's last success is 2026-10-06 08:09 UTC — now >2× its daily interval, so the primary job-market pipeline has produced nothing for two days.",
+        "type": "warning"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-fleet": {
+      "type": "Heading",
+      "props": {
+        "text": "Fleet Status",
+        "level": "h3"
+      }
+    },
+    "stack-fleet": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-dental",
+        "stat-bd",
+        "stat-heartbeat"
+      ]
+    },
+    "stat-dental": {
+      "type": "Stat",
+      "props": {
+        "label": "dental-lead-scout",
+        "value": "10/10"
+      }
+    },
+    "stat-bd": {
+      "type": "Stat",
+      "props": {
+        "label": "bd-radar",
+        "value": "1/1"
+      }
+    },
+    "stat-heartbeat": {
+      "type": "Stat",
+      "props": {
+        "label": "heartbeat",
+        "value": "8/8"
+      }
+    },
+    "text-prs": {
+      "type": "Text",
+      "props": {
+        "text": "No open PRs; issues disabled.",
+        "variant": "muted"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-next": {
+      "type": "Heading",
+      "props": {
+        "text": "Next step",
+        "level": "h3"
+      }
+    },
+    "text-next": {
+      "type": "Text",
+      "props": {
+        "text": "Inspect the digest workflow — two dispatches in a row hung before writing any output.",
+        "variant": "body"
+      }
+    }
+  }
+}
