@@ -1,8 +1,8 @@
 {
   "skill": "dental-lead-scout",
-  "last_analyzed": "2026-10-08T02:10:06Z",
+  "last_analyzed": "2026-10-09T01:23:02Z",
   "quality_score": 4,
-  "assessment": "Substantive, strategy-aligned batch of 5 deduped P1 no-website dental leads with source URLs, addresses/phones, per-clinic WhatsApp drafts, and explicit send order; internally verifiable (output file, seen-LRU updated 40->45, log matches) though lead facts themselves aren't independently checkable here.",
+  "assessment": "Five deduped, contactable clinic leads with verified phones/addresses and tailored outreach drafts; source weakness (webindia123 freshness, no website field) is honestly disclosed, though the 'no website' qualification rests on an inferential DNS sweep the operator must confirm.",
   "flags": [],
   "avg_score": 4,
   "history": [
@@ -64,6 +64,12 @@
       "date": "2026-10-08",
       "score": 4,
       "ts": "2026-10-08T02:10:06Z",
+      "harness": "claude"
+    },
+    {
+      "date": "2026-10-09",
+      "score": 4,
+      "ts": "2026-10-09T01:23:02Z",
       "harness": "claude"
     }
   ]
