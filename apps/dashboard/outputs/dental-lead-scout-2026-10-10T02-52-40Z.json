@@ -1,0 +1,116 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Dental leads",
+        "description": "5 new dental leads filed"
+      },
+      "children": [
+        "lead-summary",
+        "sep1",
+        "stats",
+        "sep2",
+        "cities",
+        "file"
+      ]
+    },
+    "lead-summary": {
+      "type": "Text",
+      "props": {
+        "text": "5 new dental leads filed (P1 5, P2 0, P3 0).",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-p1",
+        "stat-p2",
+        "stat-p3"
+      ]
+    },
+    "stat-p1": {
+      "type": "Stat",
+      "props": {
+        "label": "P1",
+        "value": "5",
+        "trend": "neutral"
+      }
+    },
+    "stat-p2": {
+      "type": "Stat",
+      "props": {
+        "label": "P2",
+        "value": "0",
+        "trend": "neutral"
+      }
+    },
+    "stat-p3": {
+      "type": "Stat",
+      "props": {
+        "label": "P3",
+        "value": "0",
+        "trend": "neutral"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cities": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "city-label",
+        "badge-bhopal",
+        "badge-lucknow"
+      ]
+    },
+    "city-label": {
+      "type": "Text",
+      "props": {
+        "text": "Cities:",
+        "variant": "muted"
+      }
+    },
+    "badge-bhopal": {
+      "type": "Badge",
+      "props": {
+        "text": "Bhopal",
+        "variant": "secondary"
+      }
+    },
+    "badge-lucknow": {
+      "type": "Badge",
+      "props": {
+        "text": "Lucknow",
+        "variant": "secondary"
+      }
+    },
+    "file": {
+      "type": "Text",
+      "props": {
+        "text": "File: output/dental-leads/2026-10-10.md",
+        "variant": "caption"
+      }
+    }
+  }
+}
