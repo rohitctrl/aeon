@@ -1,41 +1,24 @@
-Heartbeat complete. Ambient fleet check for 2026-10-09.
+🚨 🔴 digest — root cause found (4-day outage)
 
-## Fleet health — P0
+## 🔴 digest — root cause found (4-day outage)
 
-**One finding, unchanged: `digest` is stuck for a third consecutive day.**
+`digest` has **failed every day since 2026-10-07**, and the previous heartbeats had the diagnosis wrong: it is *not* a hang. The dispatch itself never starts a job.
 
-| | |
-|---|---|
-| Last status | `dispatched` |
-| Last dispatch | 2026-10-09 07:23 UTC (~7.1h ago, > 45 min) |
-| Last success | 2026-10-06 08:09 UTC (~78h prior) |
-| Completed runs | 6 (≥1 before, so this is a real hang — not warming up) |
-| Output | No `output/digest/2026-10-{07,08,09}.md`; latest is `-06.md` |
+**Verified**
+- Runs 10-07, 10-08, 10-09, 10-10 all conclude `failure` with **zero jobs** — GitHub reports "failed because of a workflow file issue". The skill never runs.
+- `output/digest/` has produced nothing since `2026-10-06.md`.
 
-The dispatch newer than the last success, the ~78h gap to last success, and three missing output files all point to a **hard hang, not a lost outcome-write**. `digest` is now **0-for-3** on consecutive daily runs — the job-market pipeline (STRATEGY priority #2) has produced nothing for three days.
+**Root cause — the lengthened `var`**
+- The digest `var` in `aeon.yml` was expanded 2026-10-06 (entry-level-only + ₹6 LPA floor).
+- Run-name went **94 → 467 chars**.
+- Dispatch history is a clean split: short var → **6/6 success** (10-01…10-06); long var → **0/4** (10-07…10-10). Nothing else changed.
 
-**Not re-notified (dedup).** The same item appears in both the 10-07 and 10-08 logs within 48h, and both runs already sent a notification. Per the dedup rule — and the 10-08 log's own forward note that day 3 falls to the repeated-item rule — today's third identical occurrence is deduped. The status page still reads 🔴 DEGRADED as the standing record. The operator is ~30h from the last ping, and the condition is unchanged (same skill, same signature, no new diagnosis).
+**Why it stays silent**
+The run dies before any step executes, so the scheduler only ever records `dispatched` — the state file reads "stuck", and the failure circuit-breaker (keys on `consecutive_failures`) never trips. It will keep failing quietly every day.
 
-## Everything else — healthy
+**Fix (one change)**
+Shorten the digest `var` back to the topic only — `data analyst and BI job market India - fresh roles, stack shifts, comp reality` — and move the entry-level / ₹6 LPA policy text into `skills/digest/SKILL.md` (or a `memory/topics/` note the digest reads), so the run-name stays short. That restores the exact config that ran green through 10-06.
 
-- **No failed skills.** `consecutive_failures` all 0; no chronic failures (`success_rate` all 1.0).
-- **Self-check does not fire** — heartbeat last succeeded 2026-10-08 08:52 UTC (~29.6h, inside 36h).
-- **`chain:dev-loop`** stamped `dispatched` (07:23:36, identical to `digest`'s dispatch) but has never completed a run → on-demand `workflow_dispatch` chain, warming-up / scheduler artifact, **not** a fault.
-- **P1:** no open PRs; issues disabled on `rohitctrl/aeon` → nothing to check.
-- **P2:** MEMORY.md "Next Priorities" are fork defaults → nothing actionable.
-- **P3:** all four enabled skills have cron-state entries; only `digest` is >2× interval stale (folded into P0). `bd-radar` (`30 3 * * 1`) last succeeded Mon 2026-10-05 — inside its weekly window.
-- `dental-lead-scout` 11/11 ✅ (last success 10-09 01:23 UTC); `bd-radar` 1/1 ✅; `heartbeat` 9/9 ✅.
-- **Token pulse:** omitted — no `output/articles/token-report-*.md` exists.
+Everything else is healthy: dental-lead-scout 12/12, heartbeat 10/10, bd-radar 1/1.
 
-## Status page
-
-`docs/status.md` regenerated — **Overall: 🔴 DEGRADED**
-- Next scheduled run: dental-lead-scout at 2026-10-10 00:30 UTC
-- Skill table: `digest` 🕸 stuck · dental-lead-scout ✅ · heartbeat ✅ · bd-radar ✅
-
-## Summary
-
-- **Ran:** heartbeat ambient check (empty `${var}`) for 2026-10-09 14:30 UTC.
-- **Findings:** 1 — `digest` stuck, 3rd consecutive day, 0-for-3. Deduped → no notification sent.
-- **Files modified:** `docs/status.md` (regenerated, DEGRADED), `memory/logs/2026-10-09.md` (appended `### heartbeat` entry under `mode: ambient`). Logged `STATUS_PAGE=DEGRADED — wrote docs/status.md`.
-- **Follow-up needed:** `digest` needs an actual repair — it has hung three days running, so retrying the schedule alone won't fix it. Consider enabling `skill-repair` (reactive triggers are commented out in `aeon.yml`) or investigating the digest skill directly. If you want heartbeat to nag daily on an unresolved outage instead of deduping, say so and I'll adjust the policy.
+<sub>Marked *unverified*: the precise GitHub limit that rejects the longer run-name (the docs state none). What's verified is the failure and its perfect correlation with the var change.</sub>

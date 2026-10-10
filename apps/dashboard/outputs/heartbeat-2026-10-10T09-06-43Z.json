@@ -1,0 +1,231 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "digest — root cause found (4-day outage)",
+        "description": "Heartbeat · reported 2026-10-10"
+      },
+      "children": [
+        "alert1",
+        "sep1",
+        "h_verified",
+        "t_v1",
+        "t_v2",
+        "sep2",
+        "h_root",
+        "t_r1",
+        "t_r2",
+        "t_r3",
+        "table1",
+        "sep3",
+        "h_silent",
+        "t_s1",
+        "sep4",
+        "h_fix",
+        "t_fix",
+        "sep5",
+        "h_health",
+        "badges",
+        "sep6",
+        "alert_unverified"
+      ]
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "digest has failed every day since 2026-10-07",
+        "message": "The previous heartbeats had the diagnosis wrong: it is not a hang. The dispatch itself never starts a job.",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_verified": {
+      "type": "Heading",
+      "props": {
+        "text": "Verified",
+        "level": "h3"
+      }
+    },
+    "t_v1": {
+      "type": "Text",
+      "props": {
+        "text": "Runs 10-07, 10-08, 10-09, 10-10 all conclude failure with zero jobs — GitHub reports \"failed because of a workflow file issue\". The skill never runs.",
+        "variant": "body"
+      }
+    },
+    "t_v2": {
+      "type": "Text",
+      "props": {
+        "text": "output/digest/ has produced nothing since 2026-10-06.md.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_root": {
+      "type": "Heading",
+      "props": {
+        "text": "Root cause — the lengthened var",
+        "level": "h3"
+      }
+    },
+    "t_r1": {
+      "type": "Text",
+      "props": {
+        "text": "The digest var in aeon.yml was expanded 2026-10-06 (entry-level-only + ₹6 LPA floor).",
+        "variant": "body"
+      }
+    },
+    "t_r2": {
+      "type": "Text",
+      "props": {
+        "text": "Run-name went 94 → 467 chars.",
+        "variant": "body"
+      }
+    },
+    "t_r3": {
+      "type": "Text",
+      "props": {
+        "text": "Dispatch history is a clean split: short var → 6/6 success (10-01…10-06); long var → 0/4 (10-07…10-10). Nothing else changed.",
+        "variant": "body"
+      }
+    },
+    "table1": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Var",
+          "Run-name length",
+          "Runs",
+          "Result"
+        ],
+        "rows": [
+          [
+            "Short var",
+            "94 chars",
+            "10-01…10-06",
+            "6/6 success"
+          ],
+          [
+            "Long var",
+            "467 chars",
+            "10-07…10-10",
+            "0/4 failure"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_silent": {
+      "type": "Heading",
+      "props": {
+        "text": "Why it stays silent",
+        "level": "h3"
+      }
+    },
+    "t_s1": {
+      "type": "Text",
+      "props": {
+        "text": "The run dies before any step executes, so the scheduler only ever records dispatched — the state file reads \"stuck\", and the failure circuit-breaker (keys on consecutive_failures) never trips. It will keep failing quietly every day.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_fix": {
+      "type": "Heading",
+      "props": {
+        "text": "Fix (one change)",
+        "level": "h3"
+      }
+    },
+    "t_fix": {
+      "type": "Text",
+      "props": {
+        "text": "Shorten the digest var back to the topic only — \"data analyst and BI job market India - fresh roles, stack shifts, comp reality\" — and move the entry-level / ₹6 LPA policy text into skills/digest/SKILL.md (or a memory/topics/ note the digest reads), so the run-name stays short. That restores the exact config that ran green through 10-06.",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_health": {
+      "type": "Heading",
+      "props": {
+        "text": "Everything else is healthy",
+        "level": "h3"
+      }
+    },
+    "badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dental",
+        "badge_heartbeat",
+        "badge_bd"
+      ]
+    },
+    "badge_dental": {
+      "type": "Badge",
+      "props": {
+        "text": "dental-lead-scout 12/12",
+        "variant": "secondary"
+      }
+    },
+    "badge_heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat 10/10",
+        "variant": "secondary"
+      }
+    },
+    "badge_bd": {
+      "type": "Badge",
+      "props": {
+        "text": "bd-radar 1/1",
+        "variant": "secondary"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_unverified": {
+      "type": "Alert",
+      "props": {
+        "title": "Unverified",
+        "message": "Marked unverified: the precise GitHub limit that rejects the longer run-name (the docs state none). What's verified is the failure and its perfect correlation with the var change.",
+        "type": "warning"
+      }
+    }
+  }
+}
