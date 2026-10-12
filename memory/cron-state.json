@@ -12,17 +12,17 @@
     "last_error": "a4ba58\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"s"
   },
   "dental-lead-scout": {
-    "last_status": "dispatched",
+    "last_status": "failed",
     "last_success": "2026-10-10T02:52:47Z",
-    "total_runs": 16,
+    "total_runs": 17,
     "total_successes": 12,
-    "total_failures": 4,
-    "consecutive_failures": 4,
-    "success_rate": 0.75,
+    "total_failures": 5,
+    "consecutive_failures": 5,
+    "success_rate": 0.71,
     "last_quality_score": 4,
     "last_dispatch": "2026-10-12T08:11:01Z",
-    "last_failed": "2026-10-11T22:47:28Z",
-    "last_error": "45d511\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"s"
+    "last_failed": "2026-10-12T08:11:39Z",
+    "last_error": "9c5574\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"s"
   },
   "digest": {
     "last_dispatch": "2026-10-12T08:11:01Z",
